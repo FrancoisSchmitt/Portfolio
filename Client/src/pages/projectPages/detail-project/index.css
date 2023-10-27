@@ -1,0 +1,4 @@
+.stack-content-stack {
+      display: flex;
+      flex-direction: row;
+}
