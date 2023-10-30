@@ -12,7 +12,6 @@ import Header from './components/layout/header';
 import Footer from './components/layout/footer';
 import ProjectPage from './pages/projectPages/project';
 
-
 import DetailProject from './pages/projectPages/detail-project';
 import Error404 from './pages/404';
 import Courses from './pages/carrerPages/courses';
@@ -29,41 +28,34 @@ const PageLayout = () => (
 );
 root.render(
       <React.StrictMode>
-
-                        <BrowserRouter>
-                              {/* <Header /> */}
-                              <Routes>
-                                    <Route element={<PageLayout />}>
-                                          <Route
-                                                path="/"
-                                                element={<Homepage />}
-                                          />
-                                          <Route
-                                                path="/Project"
-                                                element={<ProjectPage />}
-                                          />
-                                          <Route
-                                                path="/detail-project/:id"
-                                                element={<DetailProject />}
-                                          />
-                                          <Route
-                                                path="/Experiment"
-                                                element={<Experiment />}
-                                          />
-                                          <Route
-                                                path="/Courses"
-                                                element={<Courses />}
-                                          />
-                                          <Route
-                                                path="/therms-of-usage"
-                                                element={<ThermsOfUsage />}
-                                          />
-                                    </Route>
-                                    <Route path="/404" element={<Error404 />} />
-                                    <Route path="*" element={<Error404 />} />
-                              </Routes>
-                              {/* <Footer /> */}
-                        </BrowserRouter>
+            <BrowserRouter>
+                  {/* <Header /> */}
+                  <Routes>
+                        <Route element={<PageLayout />}>
+                              <Route path="/" element={<Homepage />} />
+                              <Route
+                                    path="/Project"
+                                    element={<ProjectPage />}
+                              />
+                              <Route
+                                    path="/detail-project/:id"
+                                    element={<DetailProject />}
+                              />
+                              <Route
+                                    path="/Experiment"
+                                    element={<Experiment />}
+                              />
+                              <Route path="/Courses" element={<Courses />} />
+                              <Route
+                                    path="/therms-of-usage"
+                                    element={<ThermsOfUsage />}
+                              />
+                        </Route>
+                        <Route path="/404" element={<Error404 />} />
+                        <Route path="*" element={<Error404 />} />
+                  </Routes>
+                  {/* <Footer /> */}
+            </BrowserRouter>
       </React.StrictMode>,
 );
 
