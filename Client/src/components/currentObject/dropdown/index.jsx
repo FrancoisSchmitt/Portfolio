@@ -14,7 +14,7 @@ function Dropdown(props) {
                               setIsListOpen(false);
                         }}
                   >
-                        <h2>{props.title}</h2>
+                        <h2 className="dropdown-title">{props.title}</h2>
                         <FontAwesomeIcon icon={faChevronUp} />
                   </div>
                   <div className="dropdown-container-content">
@@ -29,7 +29,7 @@ function Dropdown(props) {
                               setIsListOpen(true);
                         }}
                   >
-                        <h2>{props.title}</h2>
+                        <h2 className="dropdown-title">{props.title}</h2>
                         <FontAwesomeIcon icon={faChevronDown} />
                   </div>
             </div>

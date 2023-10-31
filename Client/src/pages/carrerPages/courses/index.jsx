@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import CoursesComponent from '../../../components/careerComponents/coursesComponent';
+import CarrerComponent from '../../../components/careerComponents';
 import { coursesMainData } from '../../../service';
 
 export default function Courses() {
@@ -14,22 +14,33 @@ export default function Courses() {
       console.log(resCourses);
       return (
             <section>
-                  <h1 className="test">Éxperience</h1>
+                  <h1 className="object-title">Éxperience</h1>
                   {resCourses.map((courses, index) => (
-                        <CoursesComponent
+                        <CarrerComponent
                               key={`courses-${index}`}
-                              coursesName={courses.coursesName}
-                              coursesJobs={courses?.coursesJobs}
-                              coursesLvl={courses?.coursesLvl}
-                              coursesDateStart={courses?.coursesDateStart}
-                              coursesDateEnd={courses?.coursesDateEnd}
-                              coursesDescription={courses?.coursesDescription}
+                              carrerTitle={courses.coursesName}
+                              carrerJobs={courses?.coursesJobs}
+                              carrerStudyLevel={courses?.coursesLvl}
+                              carrerDateStart={courses?.coursesDateStart}
+                              carrerDateEnd={courses?.coursesDateEnd}
+                              carrerDescription={courses?.coursesDescription?.map(
+                                    (description, index) => (
+                                          <li
+                                                key={`description-${index}`}
+                                                className="carrer-content-description"
+                                          >
+                                                <p className='carrer-description'>
+                                                      {description}
+                                                </p>
+                                          </li>
+                                    ),
+                              )}
                               stackTitle="Stack"
                               goalTitle="Goal"
                               goal={courses?.coursesGoal?.map((goal, index) => (
                                     <li
                                           key={`goal-${index}`}
-                                          className="courses-content-goal"
+                                          className="carrer-content-goal"
                                     >
                                           <small> {goal}</small>
                                     </li>
@@ -38,7 +49,7 @@ export default function Courses() {
                                     (Stack, index) => (
                                           <li
                                                 key={`stack-${index}`}
-                                                className="courses-content-stack"
+                                                className="carrer-content-stack"
                                           >
                                                 <small> {Stack}</small>
                                           </li>

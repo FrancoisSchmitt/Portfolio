@@ -5,6 +5,7 @@ const USER_MAIN_DATA = [
             image: 'https://i.postimg.cc/7hc6VLqn/me.png',
             firstName: 'François',
             whoIam: [
+                  'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis et iure ducimus a qui ad laudantium! Quaerat, ipsa? Laborum doloremque atque qui sunt blanditiis dolor libero earum facere asperiores cumque.',
                   "Après avoir fait une première formation en tant que développeur web, au sein de la Web@cadémie de Epitech, j'ai poursuivit une formation en tant que développeur front-end ",
                   "J'aime créer des produits frontend solides et évolutifs avec d'excellentes expériences utilisateur.",
             ],
@@ -29,7 +30,8 @@ const EXPERIMENT_DATA = [
                   'Création de cahier des charges',
                   'Travail en équipe',
             ],
-
+            experimentDateStart: 'Décembre 2019',
+            experimentDateEnd: 'Décembre 2020',
             experimentStack: ['PHP', 'MySQL'],
             __v: 0,
       },
@@ -71,9 +73,9 @@ const COURSES_DATA = [
       {
             coursesName: 'Web@cademie By Epitech ',
             coursesJobs: 'intégrateur / développeur web',
-            coursesLvl: 'Bac+ 3/4',
-            coursesDateStart: 'Décembre 2019',
-            coursesDateEnd: 'Décembre 2021',
+            coursesLvl: 'Bac+ 2',
+            coursesDateStart: 'Décembre 2018',
+            coursesDateEnd: 'Décembre 2020',
             coursesDescription: [
                   'La formation au sein de la Web@cademie, à commencé par une piscine à la rentrée, et des projets seul, et en groupe tout au long de la première année.',
                   "La piscine, nous a permis de nous surpasser, sur une durée de 3 semaines 7 jours sur 7 de 9 heures à 23 heures, la semaine une multitude d'exercices à réaliser, et le week-end un projet de groupes était à faire.",

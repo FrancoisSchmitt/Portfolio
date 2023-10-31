@@ -1,9 +1,7 @@
 import { useState, useEffect } from 'react';
-
 import { experimentMainData } from '../../../service';
+import CarrerComponent from '../../../components/careerComponents';
 
-import ExperimentComponent from '../../../components/careerComponents/experimentComponent';
-// import Study from '../../../src/components/career/study';
 export default function Experiment() {
       const [experience, setExperience] = useState([]);
       useEffect(() => {
@@ -18,36 +16,42 @@ export default function Experiment() {
       return (
             <>
                   <section>
-                        <h1 className="test">Éxperience</h1>
+                        <h1 className="object-title">Éxperience</h1>
                         {resExperience.map((experiment, index) => (
-                              <ExperimentComponent
+                              <CarrerComponent
                                     key={`experiment-${index}`}
-                                    experimentsName={experiment.experimentsName}
-                                    experimentsDescription={experiment?.experimentsDescription?.map(
+                                    carrerTitle={experiment.experimentsName}
+                                    carrerDateStart={experiment.experimentDateStart}
+                                    carrerDateEnd={experiment.experimentDateEnd}
+                                    carrerDescription={experiment?.experimentsDescription?.map(
                                           (description, index) => (
                                                 <li
                                                       key={`description-${index}`}
-                                                      className="experiment-content-description"
+                                                      className="carrer-content-description"
                                                 >
+                                                      <p className='carrer-description'>
                                                       {description}
+                                                      </p>
                                                 </li>
                                           ),
                                     )}
-                                    experimentsGoal={experiment?.experimentsGoal?.map(
+                                    goalTitle="Objectif"
+                                    stackTitle="Stacks"
+                                    goal={experiment?.experimentsGoal?.map(
                                           (goal, index) => (
                                                 <li
                                                       key={`goal-${index}`}
-                                                      className="experiment-content-goal"
+                                                      className="carrer-content-goal"
                                                 >
                                                       <small> {goal}</small>
                                                 </li>
                                           ),
                                     )}
-                                    experimentStack={experiment?.experimentStack?.map(
+                                    stack={experiment?.experimentStack?.map(
                                           (Stack, index) => (
                                                 <li
                                                       key={`stack-${index}`}
-                                                      className="experiment-content-stack"
+                                                      className="carrer-content-stack"
                                                 >
                                                       <small> {Stack}</small>
                                                 </li>
