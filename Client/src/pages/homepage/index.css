@@ -23,6 +23,11 @@
       -webkit-text-stroke-width: 1px;
 }
 
+.test-project {
+      text-decoration: none;
+      color: #eeeeee;
+}
+
 @media (max-width: 640px) {
       .section-title {
             font-size: 30px;

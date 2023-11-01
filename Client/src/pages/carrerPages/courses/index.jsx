@@ -14,9 +14,10 @@ export default function Courses() {
       console.log(resCourses);
       return (
             <section>
-                  <h1 className="object-title">Éxperience</h1>
+                  <h1 className="object-title">Formation</h1>
                   {resCourses.map((courses, index) => (
                         <CarrerComponent
+                              id={courses?.coursesName}
                               key={`courses-${index}`}
                               carrerTitle={courses.coursesName}
                               carrerJobs={courses?.coursesJobs}
@@ -29,7 +30,7 @@ export default function Courses() {
                                                 key={`description-${index}`}
                                                 className="carrer-content-description"
                                           >
-                                                <p className='carrer-description'>
+                                                <p className="carrer-description">
                                                       {description}
                                                 </p>
                                           </li>

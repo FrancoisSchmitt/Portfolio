@@ -10,6 +10,7 @@ import {
       coursesMainData,
       projectMainData,
 } from '../../service';
+import { Link } from 'react-router-dom';
 
 export default function Homepage() {
       const [userData, setUserData] = useState([]);
@@ -73,6 +74,7 @@ export default function Homepage() {
                                           .slice(0, 5)
                                           .map((experiment, index) => (
                                                 <Card
+                                                      key={`/project/-${index}`}
                                                       title={
                                                             experiment?.experimentsName
                                                       }
@@ -83,10 +85,13 @@ export default function Homepage() {
                                           .slice(0, 5)
                                           .map((courses, index) => (
                                                 <Card
+                                                      key={`/project/-${index}`}
                                                       title={
                                                             courses?.coursesName
                                                       }
                                                       link="Voir la formation"
+                                                      url="Courses/#"
+                                                      linked={courses?.coursesName}
                                                 />
                                           ))}
                               </div>
@@ -96,8 +101,11 @@ export default function Homepage() {
                         <h1 className="section-title">Projets réaliser</h1>
                         {resultProject.slice(0, 5).map((project, index) => (
                               <Card
+                                    key={`/project/-${index}`}
                                     title={project?.title}
                                     link="Voir le projet"
+                                    url="/detail-project/"
+                                    linked={project._id}
                               />
                         ))}
                   </section>

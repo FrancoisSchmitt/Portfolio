@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './index.css';
 /**
  *
@@ -12,9 +13,16 @@ export default function Card(props) {
                               <li>
                                     <h1>{props.title}</h1>
                               </li>
-                              <li>
-                                    <p>{props.link}</p>
-                              </li>
+
+                              <Link
+                                    to={`${props.url}${props.linked}`}
+                                   
+                                    className="test-project"
+                              >
+                                    <li>
+                                          <p>{props.link}</p>
+                                    </li>
+                              </Link>
                         </ul>
                   </div>
             </>

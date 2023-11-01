@@ -20,8 +20,11 @@ export default function Experiment() {
                         {resExperience.map((experiment, index) => (
                               <CarrerComponent
                                     key={`experiment-${index}`}
+                                    id='test'
                                     carrerTitle={experiment.experimentsName}
-                                    carrerDateStart={experiment.experimentDateStart}
+                                    carrerDateStart={
+                                          experiment.experimentDateStart
+                                    }
                                     carrerDateEnd={experiment.experimentDateEnd}
                                     carrerDescription={experiment?.experimentsDescription?.map(
                                           (description, index) => (
@@ -29,8 +32,8 @@ export default function Experiment() {
                                                       key={`description-${index}`}
                                                       className="carrer-content-description"
                                                 >
-                                                      <p className='carrer-description'>
-                                                      {description}
+                                                      <p className="carrer-description">
+                                                            {description}
                                                       </p>
                                                 </li>
                                           ),

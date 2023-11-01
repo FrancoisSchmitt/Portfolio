@@ -2,7 +2,7 @@ const USER_MAIN_DATA = [
       {
             _id: '6537b8ef043c62b24362c4b5',
             lastName: 'Schmitt',
-            image: 'https://i.postimg.cc/7hc6VLqn/me.png',
+        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/me.png',
             firstName: 'François',
             whoIam: [
                   'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis et iure ducimus a qui ad laudantium! Quaerat, ipsa? Laborum doloremque atque qui sunt blanditiis dolor libero earum facere asperiores cumque.',
@@ -116,7 +116,7 @@ const PROJECT_DATA = [
       {
             _id: '6536847f2f99e7f318e35027',
             title: 'Booki',
-            image: 'https://i.postimg.cc/qvQT3VKv/Booki.png',
+          image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
             description:
                   "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
             stack: ['HTML', 'CSS'],
