@@ -20,11 +20,11 @@ export default function Experiment() {
                         {resExperience.map((experiment, index) => (
                               <CarrerComponent
                                     key={`experiment-${index}`}
-                                    id='test'
                                     carrerTitle={experiment.experimentsName}
                                     carrerDateStart={
                                           experiment.experimentDateStart
                                     }
+                                    carrerJobs={experiment?.experimentsJobs}
                                     carrerDateEnd={experiment.experimentDateEnd}
                                     carrerDescription={experiment?.experimentsDescription?.map(
                                           (description, index) => (

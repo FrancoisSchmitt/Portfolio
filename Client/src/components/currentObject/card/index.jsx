@@ -16,7 +16,6 @@ export default function Card(props) {
 
                               <Link
                                     to={`${props.url}${props.linked}`}
-                                   
                                     className="test-project"
                               >
                                     <li>

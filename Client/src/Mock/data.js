@@ -2,10 +2,10 @@ const USER_MAIN_DATA = [
       {
             _id: '6537b8ef043c62b24362c4b5',
             lastName: 'Schmitt',
-        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/me.png',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/me.png',
             firstName: 'François',
             whoIam: [
-                  'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis et iure ducimus a qui ad laudantium! Quaerat, ipsa? Laborum doloremque atque qui sunt blanditiis dolor libero earum facere asperiores cumque.',
+                //   "Suite à une reconversion du métier de l'aide à la personne, ",
                   "Après avoir fait une première formation en tant que développeur web, au sein de la Web@cadémie de Epitech, j'ai poursuivit une formation en tant que développeur front-end ",
                   "J'aime créer des produits frontend solides et évolutifs avec d'excellentes expériences utilisateur.",
             ],
@@ -22,17 +22,28 @@ const EXPERIMENT_DATA = [
             experimentsJobs: 'Développeur web ',
 
             experimentsDescription: [
-                  "Dans le cadre de ma formation à la Web@cademie de Epitech j'ai du réaliser une alternance, que j'ai effectué chez Bruker pour une durée d'un an ",
-                  "Durant cette alternance, j'ai du créer un produit qui permet de faire un suivis de réparation de machine IRM que l'on retrouve dans les hopitaux.",
+            "Dans le cadre de ma formation à la Web@cademie de Epitech j'ai du réaliser une alternance, que j'ai effectuée chez Bruker pour une durée d'un an ",
+            "Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
             ],
 
             experimentsGoal: [
                   'Création de cahier des charges',
                   'Travail en équipe',
+                  'Gérer un projet web de A à Z',
             ],
             experimentDateStart: 'Décembre 2019',
             experimentDateEnd: 'Décembre 2020',
-            experimentStack: ['PHP', 'MySQL'],
+            experimentStack: [
+                  'PHP',
+                  'MySQL',
+                  'Sympfony',
+                  'Laravel',
+                  'HTML',
+                  'CSS',
+                  'Bootstrap',
+                  'Javascript',
+                  'Jquery',
+            ],
             __v: 0,
       },
 ];
@@ -44,15 +55,15 @@ const COURSES_DATA = [
             coursesDateStart: 'Novembre 2021',
             coursesDateEnd: 'Janvier 2023',
             coursesDescription: [
-                  "La formation au sein d'OpenClassrooms, c'est réaliser 100% à distance, suivis par un mentor toutes les semaines pour suivre l'avancement des projets et revenir sur différents problèmes rencontrées.",
-                  "Durant 14 mois, j'ai pu réaliser 13 projects, avec une soutenance a la fin de chaque projet. La formation est scindé en plusieurs partie, dans un premier temps on realise des projets en HTML / CSS. Par la suite on aura quelques projets en JavaScript, et pour finir la plus grosses partie de la formation ce terminera sur React.js.",
+                  "La formation au sein d'OpenClassrooms, s'est réalisée 100% à distance, suivie par un mentor toutes les semaines pour suivre l'avancement des projets et revenir sur différents problèmes rencontrées.",
+                  "Durant 14 mois, j'ai pu réaliser 13 projets, avec une soutenance à la fin de chaque projet. La formation est scindée en plusieurs parties, dans un premier temps on réalise des projets en HTML / CSS. Par la suite on aura quelques projets en JavaScript, et pour finir la plus grosse partie de la formation se terminera sur React.js.",
             ],
             coursesGoal: [
                   'Choisir une solution technique adaptée à votre client et travailler en mode Agile',
                   'Créer des sites webs avec HTML et CSS',
                   'Créer des applications web dynamiques avec Javascript et React',
                   'Communiquer avec le back-end de l’application grâce à une API',
-                  'Mettre en œuvre des test unitaires et d’intégration et débugger le code',
+                  'Mettre en œuvre des tests unitaires et d’intégration et débugger le code',
                   'Résoudre des problèmes techniques avec un langage de programmation et des algorithmes',
                   'Refactoriser du code pour qu’il soit plus moderne et optimisé',
             ],
@@ -77,9 +88,9 @@ const COURSES_DATA = [
             coursesDateStart: 'Décembre 2018',
             coursesDateEnd: 'Décembre 2020',
             coursesDescription: [
-                  'La formation au sein de la Web@cademie, à commencé par une piscine à la rentrée, et des projets seul, et en groupe tout au long de la première année.',
-                  "La piscine, nous a permis de nous surpasser, sur une durée de 3 semaines 7 jours sur 7 de 9 heures à 23 heures, la semaine une multitude d'exercices à réaliser, et le week-end un projet de groupes était à faire.",
-                  "La deuxième année, on a réalisé une alternance, avec en parrallèles des projets d'école et un projet de fin d'année en groupe.",
+                "Dans le cadre de ma formation à la Web@cademie de Epitech, la première année à été une mutlitude de projets principalement axés sur du PHP. La deuxième année à été une alternance, suivie de projets d'étude tout au long de l'année.",
+                'Lors de la première année nous avons commencé par une "piscine", un système éducatif intensif pendant une durée de 3 semaines. Pendant ces 3 semaines, nous avions plusieurs petits exercices à réaliser par jour et un projet en groupe du vendredi au dimanche',
+                "J'ai réalisé mon alternance chez Bruker pour une durée d'un an. Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
             ],
             coursesGoal: [
                   'Analyser et comprendre des besoins exprimés dans un cahier des charges',
@@ -116,13 +127,13 @@ const PROJECT_DATA = [
       {
             _id: '6536847f2f99e7f318e35027',
             title: 'Booki',
-          image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
             description:
                   "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
             stack: ['HTML', 'CSS'],
             goal: [
                   'Intégrer du contenu conformément à une maquette',
-                  'Implémenter une interface responsive\n',
+                  'Implémenter une interface responsive',
             ],
             githubUrl:
                   'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',

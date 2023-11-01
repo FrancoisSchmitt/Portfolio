@@ -91,7 +91,9 @@ export default function Homepage() {
                                                       }
                                                       link="Voir la formation"
                                                       url="Courses/#"
-                                                      linked={courses?.coursesName}
+                                                      linked={
+                                                            courses?.coursesName
+                                                      }
                                                 />
                                           ))}
                               </div>

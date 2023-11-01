@@ -5,7 +5,7 @@ export default function CarrerComponent(props) {
       return (
             <>
                   <ul className="carrer-list" id={props.id}>
-                        <li className="carrer-no-wrap" >
+                        <li className="carrer-no-wrap">
                               <h2 className="carrer-title">
                                     {props.carrerTitle}{' '}
                               </h2>
