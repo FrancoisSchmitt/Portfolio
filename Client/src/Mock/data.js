@@ -5,8 +5,8 @@ const USER_MAIN_DATA = [
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/me.png',
             firstName: 'François',
             whoIam: [
-                //   "Suite à une reconversion du métier de l'aide à la personne, ",
-                  "Après avoir fait une première formation en tant que développeur web, au sein de la Web@cadémie de Epitech, j'ai poursuivit une formation en tant que développeur front-end ",
+                  //   "Suite à une reconversion du métier de l'aide à la personne, ",
+                  "Après avoir fait une première formation en tant que développeur web, au sein de la Web@cadémie de Epitech, j'ai poursuivit une formation en tant que développeur front-end chez OpenClassrooms",
                   "J'aime créer des produits frontend solides et évolutifs avec d'excellentes expériences utilisateur.",
             ],
             jobs: 'Développeur Front-end',
@@ -22,8 +22,8 @@ const EXPERIMENT_DATA = [
             experimentsJobs: 'Développeur web ',
 
             experimentsDescription: [
-            "Dans le cadre de ma formation à la Web@cademie de Epitech j'ai du réaliser une alternance, que j'ai effectuée chez Bruker pour une durée d'un an ",
-            "Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
+                  "Dans le cadre de ma formation à la Web@cademie de Epitech j'ai du réaliser une alternance, que j'ai effectuée chez Bruker pour une durée d'un an ",
+                  "Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
             ],
 
             experimentsGoal: [
@@ -88,9 +88,9 @@ const COURSES_DATA = [
             coursesDateStart: 'Décembre 2018',
             coursesDateEnd: 'Décembre 2020',
             coursesDescription: [
-                "Dans le cadre de ma formation à la Web@cademie de Epitech, la première année à été une mutlitude de projets principalement axés sur du PHP. La deuxième année à été une alternance, suivie de projets d'étude tout au long de l'année.",
-                'Lors de la première année nous avons commencé par une "piscine", un système éducatif intensif pendant une durée de 3 semaines. Pendant ces 3 semaines, nous avions plusieurs petits exercices à réaliser par jour et un projet en groupe du vendredi au dimanche',
-                "J'ai réalisé mon alternance chez Bruker pour une durée d'un an. Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
+                  "Dans le cadre de ma formation à la Web@cademie de Epitech, la première année à été une mutlitude de projets principalement axés sur du PHP. La deuxième année à été une alternance, suivie de projets d'étude tout au long de l'année.",
+                  'Lors de la première année nous avons commencé par une "piscine", un système éducatif intensif pendant une durée de 3 semaines. Pendant ces 3 semaines, nous avions plusieurs petits exercices à réaliser par jour et un projet en groupe du vendredi au dimanche',
+                  "J'ai réalisé mon alternance chez Bruker pour une durée d'un an. Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
             ],
             coursesGoal: [
                   'Analyser et comprendre des besoins exprimés dans un cahier des charges',
@@ -110,7 +110,7 @@ const PROJECT_DATA = [
       {
             _id: '652d5565524bbfeaed52e36a',
             title: 'Kasa',
-            image: 'http://localhost:3080/images/kasa.png1697469797630.png',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
             description:
                   "Création d'une application qui permet de visualisé tous les logements disponibles et une visualisation plus précises du logement lorsque l'on clic dessus ",
             stack: ['React.Js', 'react-router-dom'],
@@ -128,6 +128,70 @@ const PROJECT_DATA = [
             _id: '6536847f2f99e7f318e35027',
             title: 'Booki',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
+            description:
+                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            stack: ['HTML', 'CSS'],
+            goal: [
+                  'Intégrer du contenu conformément à une maquette',
+                  'Implémenter une interface responsive',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            __v: 0,
+      },
+      {
+            _id: '6536847f2f99e7f318e35027',
+            title: 'Les petits plats',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plats.png',
+            description:
+                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            stack: ['HTML', 'CSS'],
+            goal: [
+                  'Intégrer du contenu conformément à une maquette',
+                  'Implémenter une interface responsive',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            __v: 0,
+      },
+      {
+            _id: '6536847f2f99e7f318e35027',
+            title: 'OhMyFood',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Homepage.png',
+            description:
+                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            stack: ['HTML', 'CSS'],
+            goal: [
+                  'Intégrer du contenu conformément à une maquette',
+                  'Implémenter une interface responsive',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            __v: 0,
+      },
+      {
+            _id: '6536847f2f99e7f318e35027',
+            title: 'Sportsee',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
+            description:
+                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            stack: ['HTML', 'CSS'],
+            goal: [
+                  'Intégrer du contenu conformément à une maquette',
+                  'Implémenter une interface responsive',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            __v: 0,
+      },
+      {
+            _id: '6536847f2f99e7f318e35027',
+            title: 'Photographer',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
             description:
                   "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
             stack: ['HTML', 'CSS'],
