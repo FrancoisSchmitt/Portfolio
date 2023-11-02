@@ -1,6 +1,8 @@
 import './index.css';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 export default function Detail(props) {
       return (
             <>
@@ -11,22 +13,20 @@ export default function Detail(props) {
                         <li>
                               <p>{props.description}</p>
                         </li>
-                        <li>
-                              <img src={props.image} alt={props.imageAlt} />
+                  </ul>
+                  <ul className='icon-project'>
+                        <li className='icon'>
+                              <Link to={props.github}>
+                                    <FontAwesomeIcon icon={faGithub} />
+                              </Link>
                         </li>
-
-                        <li>
-                              <p>
-                                    Visiter le site
-                                    <Link
-                                          to={props.link}
-                                          className="gallery-link"
-                                    >
-                                          <small>{props.title}</small>
-                                    </Link>
-                              </p>
+                        <li className='icon'>
+                              <Link to={props.website}>
+                                    <FontAwesomeIcon icon={faLink} />
+                              </Link>
                         </li>
                   </ul>
+                  <ul className="cecatest">{props.image}</ul>
             </>
       );
 }

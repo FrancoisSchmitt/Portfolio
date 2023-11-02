@@ -21,10 +21,51 @@
       object-fit: cover;
 }
 
+.cecatest {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      gap: 2%;
+      margin-bottom: 5%;
+      margin-top: 2.5%;
+}
+
+.image-project {
+      /* width: 200px; */
+      max-height: 274px;
+      object-fit: cover;
+      /* gap: 20%; */
+      transition: 0.5s ease;
+}
+
+.icon-project {
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: center;
+      gap: 10%;
+      margin-top: 2%;
+      width: 90%;
+}
+
+.icon a {
+      text-decoration: none;
+      color: #eeeeee;
+}
+
+.icon a svg {
+      width: 40px;
+      height: 40px;
+}
+
 @media (max-width: 640px) {
       .detail-project li p {
             text-align: center;
       }
+
       .detail-project li img {
             width: 389px;
       }

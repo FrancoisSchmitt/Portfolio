@@ -15,7 +15,7 @@ function Dropdown(props) {
                         }}
                   >
                         <h2 className="dropdown-title">{props.title}</h2>
-                        <FontAwesomeIcon icon={faChevronUp} />
+                        <FontAwesomeIcon icon={faChevronDown} />
                   </div>
                   <div className="dropdown-container-content">
                         <ul>{props.content}</ul>
@@ -30,7 +30,7 @@ function Dropdown(props) {
                         }}
                   >
                         <h2 className="dropdown-title">{props.title}</h2>
-                        <FontAwesomeIcon icon={faChevronDown} />
+                        <FontAwesomeIcon icon={faChevronUp} />
                   </div>
             </div>
       );

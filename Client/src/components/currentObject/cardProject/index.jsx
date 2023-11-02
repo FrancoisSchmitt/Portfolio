@@ -10,7 +10,11 @@ import './index.css';
 export default function CardProject(props) {
       return (
             <>
-                  <img src={props.image} alt={props.altImage} />
+                  <img
+                        className="masonry"
+                        src={props.image}
+                        alt={props.altImage}
+                  />
             </>
       );
 }

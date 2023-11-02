@@ -23,7 +23,7 @@ export default function DetailProject() {
       const resultDetailProject = detailProject.find(
             (project) => project._id === id.id,
       );
-      console.log(resultDetailProject);
+      console.log(resultDetailProject?.allImage);
 
       return (
             <>
@@ -34,9 +34,22 @@ export default function DetailProject() {
                                     description={
                                           resultDetailProject?.description
                                     }
-                                    image={resultDetailProject?.image}
-                                    imageAlt={resultDetailProject?.title}
-                                    link={resultDetailProject?.projectUrl}
+                                    github={resultDetailProject?.githubUrl}
+                                    website={resultDetailProject?.projectUrl}
+                                    image={resultDetailProject?.allImage?.map(
+                                          (image, index) => (
+                                                <li
+                                                      key={`image-${index}`}
+                                                      className="image-content-project"
+                                                >
+                                                      <img
+                                                            className="image-project"
+                                                            src={image}
+                                                            alt=""
+                                                      />
+                                                </li>
+                                          ),
+                                    )}
                               />
 
                               <Dropdown

@@ -108,9 +108,19 @@ const COURSES_DATA = [
 
 const PROJECT_DATA = [
       {
-            _id: '652d5565524bbfeaed52e36a',
+            _id: 'b3d56c064a4a426082eb',
             title: 'Kasa',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_404.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_A-Propos.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Fiche-Logement.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_404.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_A-Propos.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Fiche-Logement.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Home.png',
+            ],
             description:
                   "Création d'une application qui permet de visualisé tous les logements disponibles et une visualisation plus précises du logement lorsque l'on clic dessus ",
             stack: ['React.Js', 'react-router-dom'],
@@ -125,7 +135,7 @@ const PROJECT_DATA = [
             __v: 0,
       },
       {
-            _id: '6536847f2f99e7f318e35027',
+            _id: '77cd589970d74e75a42a',
             title: 'Booki',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
             description:
@@ -141,7 +151,7 @@ const PROJECT_DATA = [
             __v: 0,
       },
       {
-            _id: '6536847f2f99e7f318e35027',
+            _id: '648d0688aaeb4790aed5',
             title: 'Les petits plats',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plats.png',
             description:
@@ -153,11 +163,11 @@ const PROJECT_DATA = [
             ],
             githubUrl:
                   'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
-            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            projectUrl: 'https://les-petits-plats-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
-            _id: '6536847f2f99e7f318e35027',
+            _id: '4fb2bf6c469c4eacacc8',
             title: 'OhMyFood',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Homepage.png',
             description:
@@ -169,11 +179,11 @@ const PROJECT_DATA = [
             ],
             githubUrl:
                   'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
-            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            projectUrl: 'https://ohmyfood-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
-            _id: '6536847f2f99e7f318e35027',
+            _id: '757b3b89c28349b6a54b',
             title: 'Sportsee',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
             description:
@@ -185,13 +195,29 @@ const PROJECT_DATA = [
             ],
             githubUrl:
                   'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
-            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
-            _id: '6536847f2f99e7f318e35027',
+            _id: '987f0bdd38554a068b32',
             title: 'Photographer',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
+            description:
+                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            stack: ['HTML', 'CSS'],
+            goal: [
+                  'Intégrer du contenu conformément à une maquette',
+                  'Implémenter une interface responsive',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+            projectUrl: 'https://fisheye-francoisschmitt.vercel.app/',
+            __v: 0,
+      },
+      {
+            _id: '987f0bdd38554a068b32',
+            title: 'GameOn',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
             description:
                   "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
             stack: ['HTML', 'CSS'],
