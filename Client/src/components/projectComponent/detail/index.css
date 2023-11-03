@@ -49,16 +49,20 @@
       gap: 10%;
       margin-top: 2%;
       width: 90%;
+      align-items: center;
 }
 
-.icon a {
+
+
+.icon a, .github-icon {
       text-decoration: none;
       color: #eeeeee;
 }
 
-.icon a svg {
+.icon a svg, .github-icon {
       width: 40px;
       height: 40px;
+      box-shadow: none!important;
 }
 
 @media (max-width: 640px) {

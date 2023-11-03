@@ -1,7 +1,8 @@
 import './index.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import  Github  from '../../../assets/tesra.svg'
+
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 export default function Detail(props) {
       return (
@@ -17,11 +18,13 @@ export default function Detail(props) {
                   <ul className='icon-project'>
                         <li className='icon'>
                               <Link to={props.github}>
-                                    <FontAwesomeIcon icon={faGithub} />
+                                    <img className="github-icon" src={Github} alt="Logo" />
+
                               </Link>
                         </li>
                         <li className='icon'>
                               <Link to={props.website}>
+                                    {/* Website */}
                                     <FontAwesomeIcon icon={faLink} />
                               </Link>
                         </li>
