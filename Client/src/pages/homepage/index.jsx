@@ -66,7 +66,7 @@ export default function Homepage() {
                   ))}
                   <section className="card-section">
                         <h1 className="section-title">
-                              Éxperience / Formation
+                              Éxperiences / Formations
                         </h1>
                         <div className="background-homepage-card">
                               <div className="homepage-card-container">
