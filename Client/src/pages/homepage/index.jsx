@@ -78,7 +78,6 @@ export default function Homepage() {
                                                       title={
                                                             experiment?.experimentsName
                                                       }
-                                                      link="Voir l'éxperience"
                                                 />
                                           ))}
                                     {resultCourses
@@ -87,11 +86,6 @@ export default function Homepage() {
                                                 <Card
                                                       key={`/project/-${index}`}
                                                       title={
-                                                            courses?.coursesName
-                                                      }
-                                                      link="Voir la formation"
-                                                      url="Courses/#"
-                                                      linked={
                                                             courses?.coursesName
                                                       }
                                                 />

@@ -62,7 +62,7 @@ export default function Header() {
                                                       : ''
                                           }
                                     >
-                                          Formation
+                                          Formations
                                     </NavLink>
                               </li>
                               <li>

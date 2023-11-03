@@ -6,7 +6,7 @@ const USER_MAIN_DATA = [
             firstName: 'François',
             whoIam: [
                   //   "Suite à une reconversion du métier de l'aide à la personne, ",
-                  "Après avoir fait une première formation en tant que développeur web, au sein de la Web@cadémie de Epitech, j'ai poursuivit une formation en tant que développeur front-end chez OpenClassrooms",
+                  "Après avoir fait une première formation en tant que développeur web, au sein de la Web@cadémie de Epitech, j'ai poursuivi une formation en tant que développeur front-end chez OpenClassrooms",
                   "J'aime créer des produits frontend solides et évolutifs avec d'excellentes expériences utilisateur.",
             ],
             jobs: 'Développeur Front-end',
@@ -126,8 +126,8 @@ const PROJECT_DATA = [
             stack: ['React.Js', 'react-router-dom'],
             goal: [
                   'Créer des composants avec React',
-                  "Développer les routes d'une application web avec React Router\n",
-                  'Initialiser une application web avec un framework\n',
+                  "Développer les routes d'une application web avec React Router",
+                  'Initialiser une application web avec un framework',
             ],
             githubUrl:
                   'https://github.com/FrancoisSchmitt/SchmittFrancois_11_25052022',
@@ -138,6 +138,11 @@ const PROJECT_DATA = [
             _id: '77cd589970d74e75a42a',
             title: 'Booki',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Mobile.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Tablette.png',
+            ],
             description:
                   "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
             stack: ['HTML', 'CSS'],
@@ -154,15 +159,21 @@ const PROJECT_DATA = [
             _id: '648d0688aaeb4790aed5',
             title: 'Les petits plats',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plats.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+4.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
+            ],
             description:
-                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-            stack: ['HTML', 'CSS'],
+                  "Création d'une application comme Marmiton, avoir une quantité de recette, et de créer un algorithme de recherche",
+            stack: ['JavaScript', 'CSS'],
             goal: [
-                  'Intégrer du contenu conformément à une maquette',
-                  'Implémenter une interface responsive',
+                  'Analyser un problème informatique',
+                  'Développer un algorithme pour résoudre un problème',
             ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_7_Les_Petits_Plats_08052022',
             projectUrl: 'https://les-petits-plats-francoisschmitt.vercel.app/',
             __v: 0,
       },
@@ -170,15 +181,23 @@ const PROJECT_DATA = [
             _id: '4fb2bf6c469c4eacacc8',
             title: 'OhMyFood',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Homepage.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+La+palette+du+gout.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+%C3%80+la+fran%C3%A7aise.png',
+            ],
             description:
-                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-            stack: ['HTML', 'CSS'],
+                  "Création d'une application de restauration comme Uber eat, la possibilité de choisir le restaurant disponnible et visualiser les différents repas",
+            stack: ['HTML', 'Sass'],
             goal: [
-                  'Intégrer du contenu conformément à une maquette',
-                  'Implémenter une interface responsive',
+                  'Mettre en œuvre des effets CSS graphiques avancés',
+                  "Assurer la cohérence graphique d'un site web",
+                  'Mettre en place une structure de navigation pour un site web',
+                  'Mettre en place son environnement Front-End',
+                  'Utiliser un système de gestion de versions pour le suivi du projet et son hébergement',
             ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+                  'https://github.com/FrancoisSchmitt/OhmyFood',
             projectUrl: 'https://ohmyfood-francoisschmitt.vercel.app/',
             __v: 0,
       },
@@ -187,47 +206,64 @@ const PROJECT_DATA = [
             title: 'Sportsee',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
             description:
-                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-            stack: ['HTML', 'CSS'],
+                  "Création d'une application qui renvoie des données sur des éléments graphique. afin de suivre l'évolution des données en fonctions de tel personnes ",
+            stack: ['React.js', 'CSS', 'Recharts.js', 'Node.js', 'Mock', 'API'],
             goal: [
-                  'Intégrer du contenu conformément à une maquette',
-                  'Implémenter une interface responsive',
+                  "Assurer la qualité des données d'une application",
+                  "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
+                  "Interagir avec un service Web",
             ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+                  'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
             projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
             _id: '987f0bdd38554a068b32',
-            title: 'Photographer',
+            title: 'FishEye',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/photographer-page.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/form-modal.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/component.png',
+            ],
+            
             description:
-                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-            stack: ['HTML', 'CSS'],
+                  "Création d'une application dédiés au photographe afin qu'il puisse exposé leurs plus belle prises",
+            stack: ['HTML', 'CSS', 'JavaScript', 'Mock'],
             goal: [
-                  'Intégrer du contenu conformément à une maquette',
-                  'Implémenter une interface responsive',
+                  "Assurer l'accessibilité d'un site web",
+                  "Développer une application web modulaire avec des design patterns",
+                  "Ecrire du code JavaScript maintenable",
+                  "Gérer les évènements d'un site avec JavaScript",
+                  
             ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_6_Fisheye_03092022',
             projectUrl: 'https://fisheye-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
-            _id: '987f0bdd38554a068b32',
+            _id: 'cad17b7b479046ca965d',
             title: 'GameOn',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened-1.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/Homepage.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened-1.png',
+            ],
             description:
-                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-            stack: ['HTML', 'CSS'],
+                  "Création d'une application permet de présenté et de s'insrire à un formulaire pour participer",
+            stack: ['HTML', 'CSS', 'JavaScript'],
             goal: [
-                  'Intégrer du contenu conformément à une maquette',
-                  'Implémenter une interface responsive',
+                  'Programmer en JavaScript',
             ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
-            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+                  'https://github.com/FrancoisSchmitt/GameOn',
+            projectUrl: 'https://francois-schmitt-game-on.vercel.app/#',
             __v: 0,
       },
 ];

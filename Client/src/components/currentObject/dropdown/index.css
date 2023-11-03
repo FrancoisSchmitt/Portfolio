@@ -40,10 +40,6 @@
       border-bottom-left-radius: 5px;
 }
 
-.dropdown-container-content ul li {
-      color: #393e46;
-}
-
 .dropdown-container-content ul {
       margin: auto;
       /* color: #ff6060; */
@@ -62,6 +58,9 @@
 .dropdown-container-content ul li {
       display: flex;
       flex-direction: column;
+      margin: 1%;
+      color: #393e46;
+
 }
 
 .dropdown-container-content div {

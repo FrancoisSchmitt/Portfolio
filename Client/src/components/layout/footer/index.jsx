@@ -52,7 +52,7 @@ export default function Footer() {
                                                       : ''
                                           }
                                     >
-                                          Éxperience
+                                          Éxperiences
                                     </NavLink>
                               </li>
                               <li>
@@ -69,7 +69,7 @@ export default function Footer() {
                                                       : ''
                                           }
                                     >
-                                          Formation
+                                          Formations
                                     </NavLink>
                               </li>
 
