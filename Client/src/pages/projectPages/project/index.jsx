@@ -14,7 +14,7 @@ export default function ProjectPage() {
             })();
       }, []);
       const resProject = projectData;
-      console.log(resProject);
+
       return (
             <>
                   <section className="container">
@@ -24,7 +24,7 @@ export default function ProjectPage() {
                                           {resProject.map((project, index) => (
                                                 <Link
                                                       key={`/detail-project/-${index}`}
-                                                      to={`/detail-project/${project._id}`}
+                                                      to={`/detail-project/${project.id}`}
                                                       className="gallery-link"
                                                 >
                                                       <CardProject
@@ -35,6 +35,7 @@ export default function ProjectPage() {
                                                                   project.image
                                                             }
                                                       />
+                                                      <p>{project?.id}</p>
                                                 </Link>
                                           ))}
                                     </li>

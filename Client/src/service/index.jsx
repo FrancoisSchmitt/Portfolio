@@ -50,7 +50,6 @@ async function coursesMainData() {
 async function projectMainData(id) {
       try {
             const project = PROJECT_DATA;
-            console.log(project);
             return project;
       } catch (error) {
             console.log('getMainInformation : ' + error);

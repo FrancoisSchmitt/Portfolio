@@ -7,36 +7,27 @@ import { useParams } from 'react-router-dom';
 import Dropdown from '../../../components/currentObject/dropdown';
 import Detail from '../../../components/projectComponent/detail';
 import { projectMainData } from '../../../service';
+import { PROJECT_DATA } from '../../../Mock/data.js'
 
 export default function DetailProject() {
       const id = useParams();
 
-      const [detailProject, setDetailProject] = useState([]);
-      useEffect(() => {
-            (async () => {
-                  let result = projectMainData(id.id);
-                  setDetailProject(await result);
-            })();
-      }, []);
-
-      // const resultDetailProject = detailProject;
-      const resultDetailProject = detailProject.find(
-            (project) => project._id === id.id,
+      const project = PROJECT_DATA.find(
+            (project) => project.id === id.id,
       );
-      console.log(resultDetailProject?.allImage);
 
       return (
             <>
-                  {detailProject ? (
+                  {project ? (
                         <>
                               <Detail
-                                    title={resultDetailProject?.title}
+                                    title={project?.title}
                                     description={
-                                          resultDetailProject?.description
+                                          project?.description
                                     }
-                                    github={resultDetailProject?.githubUrl}
-                                    website={resultDetailProject?.projectUrl}
-                                    image={resultDetailProject?.allImage?.map(
+                                    github={project?.githubUrl}
+                                    website={project?.projectUrl}
+                                    image={project?.allImage?.map(
                                           (image, index) => (
                                                 <li
                                                       key={`image-${index}`}
@@ -54,7 +45,7 @@ export default function DetailProject() {
 
                               <Dropdown
                                     title="Objectif"
-                                    content={resultDetailProject?.goal?.map(
+                                    content={project?.goal?.map(
                                           (goal, index) => (
                                                 <li
                                                       key={`goal-${index}`}
@@ -67,7 +58,7 @@ export default function DetailProject() {
                               />
                               <Dropdown
                                     title="Technologie"
-                                    content={resultDetailProject?.stack?.map(
+                                    content={project?.stack?.map(
                                           (Stack, index) => (
                                                 <li
                                                       key={`Stack-${index}`}

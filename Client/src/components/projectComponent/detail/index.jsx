@@ -1,9 +1,9 @@
 import './index.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  Github  from '../../../assets/github.svg'
-
+import Github from '../../../assets/github.svg';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
+
 export default function Detail(props) {
       return (
             <>
@@ -15,14 +15,17 @@ export default function Detail(props) {
                               <p>{props.description}</p>
                         </li>
                   </ul>
-                  <ul className='icon-project'>
-                        <li className='icon'>
+                  <ul className="icon-project">
+                        <li className="icon">
                               <Link to={props.github}>
-                                    <img className="github-icon" src={Github} alt="Logo" />
-
+                                    <img
+                                          className="github-icon"
+                                          src={Github}
+                                          alt="Logo"
+                                    />
                               </Link>
                         </li>
-                        <li className='icon'>
+                        <li className="icon">
                               <Link to={props.website}>
                                     {/* Website */}
                                     <FontAwesomeIcon icon={faLink} />

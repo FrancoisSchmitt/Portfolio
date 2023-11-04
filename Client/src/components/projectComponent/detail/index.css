@@ -52,17 +52,17 @@
       align-items: center;
 }
 
-
-
-.icon a, .github-icon {
+.icon a,
+.github-icon {
       text-decoration: none;
       color: #eeeeee;
 }
 
-.icon a svg, .github-icon {
+.icon a svg,
+.github-icon {
       width: 40px;
       height: 40px;
-      box-shadow: none!important;
+      box-shadow: none !important;
 }
 
 @media (max-width: 640px) {
