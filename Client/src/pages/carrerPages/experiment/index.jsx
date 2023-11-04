@@ -11,8 +11,6 @@ export default function Experiment() {
             })();
       }, []);
       const resExperience = experience;
-      console.log(resExperience);
-
       return (
             <>
                   <section>

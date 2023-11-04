@@ -1,30 +1,19 @@
-import { useState, useEffect } from 'react';
-
 import { Navigate } from 'react-router-dom';
-
 import { useParams } from 'react-router-dom';
-
 import Dropdown from '../../../components/currentObject/dropdown';
 import Detail from '../../../components/projectComponent/detail';
-import { projectMainData } from '../../../service';
-import { PROJECT_DATA } from '../../../Mock/data.js'
+import { PROJECT_DATA } from '../../../Mock/data.js';
 
 export default function DetailProject() {
       const id = useParams();
-
-      const project = PROJECT_DATA.find(
-            (project) => project.id === id.id,
-      );
-
+      const project = PROJECT_DATA.find((project) => project.id === id.id);
       return (
             <>
                   {project ? (
                         <>
                               <Detail
                                     title={project?.title}
-                                    description={
-                                          project?.description
-                                    }
+                                    description={project?.description}
                                     github={project?.githubUrl}
                                     website={project?.projectUrl}
                                     image={project?.allImage?.map(

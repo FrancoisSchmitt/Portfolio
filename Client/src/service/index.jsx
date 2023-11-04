@@ -7,23 +7,17 @@ import {
 } from '../Mock/data';
 
 /**
- *
  * @param {*} user
- * @const postLogin is the call of the api that allows to make a POST request for the login
- * @getProject it was a call api to get all project I create with @createNewProject
- * @getExperience it was a call api to get all project I create with @createNewExperience
- * @getFormation it was a call api to get all project I create with @createNewFormation
- * @createNewProject it was a request to create new project in my db
- * @createNewExperience it was a request to create new experience in my db
- * @createNewFormation it was a request to create new formation in my db
- *
+ * @projectMainData it was a call api to get all project data
+ * @coursesMainData it was a call api to get all courses data
+ * @userMainData it was a call api to get all user data
+ * @experimentMainData it was a call api to get all experiment data
  * @returns
  */
 
 async function userMainData() {
       try {
             const user = USER_MAIN_DATA;
-            // console.log(user);
             return user;
       } catch (error) {
             console.log('getMainInformation : ' + error);
@@ -32,7 +26,6 @@ async function userMainData() {
 async function experimentMainData() {
       try {
             const experiment = EXPERIMENT_DATA;
-            // console.log(experiment);
             return experiment;
       } catch (error) {
             console.log('getMainInformation : ' + error);
@@ -41,7 +34,6 @@ async function experimentMainData() {
 async function coursesMainData() {
       try {
             const courses = COURSES_DATA;
-            // console.log(courses);
             return courses;
       } catch (error) {
             console.log('getMainInformation : ' + error);
@@ -57,4 +49,3 @@ async function projectMainData(id) {
 }
 
 export { experimentMainData, userMainData, coursesMainData, projectMainData };
-// export { getProject, getExperiment, getCourses, getProjectById, getUser, userMainData };

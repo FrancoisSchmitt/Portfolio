@@ -1,6 +1,4 @@
 import './index.css';
-// import rec from '../../../assets/OhmyFoodAffinity.png';
-
 /**
  *
  * @function CardProject it was a function to display elements with props

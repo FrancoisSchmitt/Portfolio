@@ -11,7 +11,6 @@ export default function Courses() {
             })();
       }, []);
       const resCourses = courses;
-      console.log(resCourses);
       return (
             <section>
                   <h1 className="object-title">Formation</h1>

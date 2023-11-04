@@ -1,5 +1,4 @@
 import './index.css';
-// import ButtonMailto from '../../currentObject/buttonMailTo/index.jsx';
 import { NavLink } from 'react-router-dom';
 
 /**
@@ -11,14 +10,6 @@ export default function Footer() {
       return (
             <footer className="footer">
                   <nav className="footer-nav">
-                        {/* <ul>
-                              <li>
-                                    <ButtonMailto
-                                          label="Me contacter"
-                                          mailto="mailto:Schmitt.francois.1699@gmail.com"
-                                    />
-                              </li>
-                        </ul> */}
                         <ul className="footer-list">
                               <li>
                                     <NavLink

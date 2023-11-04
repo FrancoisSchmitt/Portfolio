@@ -2,7 +2,6 @@ import './index.css';
 
 import Card from '../../components/currentObject/card';
 import AboutMe from '../../components/about-me';
-import CardProject from '../../components/currentObject/cardProject';
 import { useEffect, useState } from 'react';
 import {
       userMainData,
@@ -10,7 +9,6 @@ import {
       coursesMainData,
       projectMainData,
 } from '../../service';
-import { Link } from 'react-router-dom';
 
 export default function Homepage() {
       const [userData, setUserData] = useState([]);
@@ -35,9 +33,6 @@ export default function Homepage() {
       const resultExperiment = experimentData;
       const resultCourses = coursesData;
 
-      // console.log(resultUsers);
-      console.log(resultProject);
-      // console.log(resultCourses);
       return (
             <>
                   {resultUsers.map((user, index) => (

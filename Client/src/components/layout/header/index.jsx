@@ -1,14 +1,9 @@
 import './index.css';
 import { NavLink } from 'react-router-dom';
-// import { useDispatch, useSelector } from 'react-redux';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
-
 /**
  *
  * @returns Header
  */
-
 export default function Header() {
       return (
             <header className="header">

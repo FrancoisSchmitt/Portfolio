@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import './index.css';
 import { Link } from 'react-router-dom';
 import { projectMainData } from '../../../service';
@@ -14,7 +13,6 @@ export default function ProjectPage() {
             })();
       }, []);
       const resProject = projectData;
-
       return (
             <>
                   <section className="container">
