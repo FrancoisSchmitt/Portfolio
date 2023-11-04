@@ -33,7 +33,6 @@ export default function ProjectPage() {
                                                                   project.image
                                                             }
                                                       />
-                                                      <p>{project?.id}</p>
                                                 </Link>
                                           ))}
                                     </li>
