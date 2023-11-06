@@ -56,17 +56,18 @@
 
       .aboutme-content li {
             margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            text-align: justify;
       }
 
-      .aboutme-content li p,
-      .aboutme-content li h1 {
-            width: 100%;
+      .aboutme-content,
+      .aboutme-content {
+            width: 80%;
       }
 
       .aboutme-content h1 {
-            display: flex;
             font-size: 24px;
-            width: 90%;
       }
 
       .aboutme-content p {

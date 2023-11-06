@@ -29,7 +29,17 @@
 }
 
 @media (max-width: 640px) {
+      .aboutme-section {
+            height: 70vh;
+      }
+      .project-section,
+      .card-section {
+            height: 60vh;
+      }
       .section-title {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
             font-size: 30px;
       }
 }
