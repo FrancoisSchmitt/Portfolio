@@ -38,7 +38,11 @@ img {
 }
 
 @media (max-width: 640px) {
-      .masonry,
+      /* .masonry, */
+      .container{
+            display: flex;
+            justify-content: center;
+      }
       .gallery-container {
             column-count: 1;
       }

@@ -72,3 +72,36 @@
       margin: 5px;
       font-size: 18px;
 }
+
+
+@media (max-width: 640px) {
+      .carrer-list {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+      }
+
+      .carrer-list li {
+            width: 100%;
+            margin: 0;
+            margin-top: 5%;
+      }
+
+      .carrer-description {
+            width: 100%;
+      }
+
+      .carrer-no-wrap {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+      }
+
+      .carrer-title {
+            margin-left: 0;
+      }
+
+      .object-title{
+            width: 35%;
+      }
+}
