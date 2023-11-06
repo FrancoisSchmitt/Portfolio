@@ -116,10 +116,8 @@ const PROJECT_DATA = [
                   'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_A-Propos.png',
                   'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Fiche-Logement.png',
                   'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_404.png',
                   'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_A-Propos.png',
                   'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Fiche-Logement.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Home.png',
             ],
             description:
                   "Création d'une application qui permet de visualisé tous les logements disponibles et une visualisation plus précises du logement lorsque l'on clic dessus ",

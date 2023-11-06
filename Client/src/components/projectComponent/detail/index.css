@@ -21,7 +21,7 @@
       object-fit: cover;
 }
 
-.cecatest {
+.grid-image {
       display: grid;
       grid-template-columns: 1fr 1fr;
       width: 70%;
@@ -70,7 +70,13 @@
             text-align: center;
       }
 
-      .detail-project li img {
+      .image-project {
             width: 389px;
+            height: 180px;
+      }
+      .grid-image {
+            display: grid;
+            grid-template-columns: 1fr;
+            padding-bottom: auto;
       }
 }

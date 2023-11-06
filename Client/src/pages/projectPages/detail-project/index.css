@@ -1,4 +1,10 @@
-.stack-content-stack {
+.project-detail-section {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+}
+
+@media (max-width: 640px) {
+      .dropdown-detail-section {
+            margin-top: 20%;
+      }
 }

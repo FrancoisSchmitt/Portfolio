@@ -32,7 +32,7 @@ export default function Detail(props) {
                               </Link>
                         </li>
                   </ul>
-                  <ul className="cecatest">{props.image}</ul>
+                  <ul className="grid-image">{props.image}</ul>
             </>
       );
 }
