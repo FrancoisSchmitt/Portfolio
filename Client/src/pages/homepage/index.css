@@ -32,14 +32,22 @@
       .aboutme-section {
             height: 70vh;
       }
+
       .project-section,
       .card-section {
             height: 70vh;
       }
+
       .section-title {
             width: 90%;
             margin-left: auto;
             margin-right: auto;
             font-size: 30px;
+      }
+}
+
+@media (min-width: 1600px) {
+      .project-section {
+            margin-bottom: 2%;
       }
 }

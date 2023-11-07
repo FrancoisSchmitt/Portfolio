@@ -6,6 +6,8 @@ import CardProject from '../../../components/currentObject/cardProject';
 
 export default function ProjectPage() {
       const [projectData, setProjectData] = useState([]);
+
+
       useEffect(() => {
             (async () => {
                   let projectRes = projectMainData();

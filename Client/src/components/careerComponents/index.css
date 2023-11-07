@@ -110,7 +110,12 @@
       .carrer-list {
             margin-top: 2%;
       }
-      .carrer-list li{
+
+      .carrer-list li {
             margin: 1%;
+      }
+
+      .object-title {
+            width: 8.6%;
       }
 }
