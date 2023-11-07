@@ -107,23 +107,7 @@ const COURSES_DATA = [
 ];
 
 const PROJECT_DATA = [
-      {
-            id: '757b3b89c28349b6a54b',
-            title: 'Sportsee',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
-            description:
-                  "Création d'une application qui renvoie des données sur des éléments graphique. afin de suivre l'évolution des données en fonctions de tel personnes ",
-            stack: ['React.js', 'CSS', 'Recharts.js', 'Node.js', 'Mock', 'API'],
-            goal: [
-                  "Assurer la qualité des données d'une application",
-                  "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
-                  'Interagir avec un service Web',
-            ],
-            githubUrl:
-                  'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
-            projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
-            __v: 0,
-      },
+     
 
       {
             id: '648d0688aaeb4790aed5',
@@ -145,6 +129,23 @@ const PROJECT_DATA = [
             githubUrl:
                   'https://github.com/FrancoisSchmitt/Schmitt_Francois_7_Les_Petits_Plats_08052022',
             projectUrl: 'https://les-petits-plats-francoisschmitt.vercel.app/',
+            __v: 0,
+      },
+      {
+            id: '757b3b89c28349b6a54b',
+            title: 'Sportsee',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
+            description:
+                  "Création d'une application qui renvoie des données sur des éléments graphique. afin de suivre l'évolution des données en fonctions de tel personnes ",
+            stack: ['React.js', 'CSS', 'Recharts.js', 'Node.js', 'Mock', 'API'],
+            goal: [
+                  "Assurer la qualité des données d'une application",
+                  "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
+                  'Interagir avec un service Web',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
+            projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
