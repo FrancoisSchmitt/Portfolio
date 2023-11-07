@@ -35,7 +35,7 @@ export default function DetailProject() {
                               </section>
                               <section className="dropdown-detail-section">
                                     <Dropdown
-                                          title="Objectif"
+                                          title="Objectifs"
                                           content={project?.goal?.map(
                                                 (goal, index) => (
                                                       <li
@@ -48,7 +48,7 @@ export default function DetailProject() {
                                           )}
                                     />
                                     <Dropdown
-                                          title="Technologie"
+                                          title="Technologies"
                                           content={project?.stack?.map(
                                                 (Stack, index) => (
                                                       <li

@@ -19,6 +19,7 @@
 }
 
 @media (max-width: 991px) {
+
       .masonry,
       .gallery-container {
             column-count: 2;
@@ -26,12 +27,21 @@
 }
 
 @media (max-width: 640px) {
+
       /* .masonry, */
       .container {
             display: flex;
             justify-content: center;
       }
+
       .gallery-container {
             column-count: 1;
       }
+}
+
+@media (min-width: 1600px) {
+      .gallery-container{
+            width: 90%;
+      }
+      
 }
