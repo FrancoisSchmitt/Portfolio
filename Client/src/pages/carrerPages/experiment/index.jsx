@@ -36,8 +36,8 @@ export default function Experiment() {
                                                 </li>
                                           ),
                                     )}
-                                    goalTitle="Objectif"
-                                    stackTitle="Technologie"
+                                    goalTitle="Objectifs"
+                                    stackTitle="Technologies"
                                     goal={experiment?.experimentsGoal?.map(
                                           (goal, index) => (
                                                 <li

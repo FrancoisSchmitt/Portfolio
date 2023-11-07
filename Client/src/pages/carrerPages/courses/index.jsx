@@ -35,8 +35,8 @@ export default function Courses() {
                                           </li>
                                     ),
                               )}
-                              stackTitle="Stack"
-                              goalTitle="Goal"
+                              stackTitle="Technologies"
+                              goalTitle="Objectifs"
                               goal={courses?.coursesGoal?.map((goal, index) => (
                                     <li
                                           key={`goal-${index}`}

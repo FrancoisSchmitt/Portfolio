@@ -19,10 +19,10 @@ const EXPERIMENT_DATA = [
       {
             id: '653901dee5d2fe5590dee811',
             experimentsName: 'Bruker',
-            experimentsJobs: 'Développeur web ',
+            experimentsJobs: 'Développeur web',
 
             experimentsDescription: [
-                  "Dans le cadre de ma formation à la Web@cademie de Epitech j'ai du réaliser une alternance, que j'ai effectuée chez Bruker pour une durée d'un an ",
+                  "Dans le cadre de ma formation à la Web@cademie de Epitech j'ai du réaliser une alternance, que j'ai effectuée chez Bruker pour une durée d'un an.",
                   "Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
             ],
 
@@ -107,29 +107,45 @@ const COURSES_DATA = [
 ];
 
 const PROJECT_DATA = [
+     
       {
-            id: 'b3d56c064a4a426082eb',
-            title: 'Kasa',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
-            allImage: [
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_404.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_A-Propos.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Fiche-Logement.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_A-Propos.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Fiche-Logement.png',
-            ],
+            id: '757b3b89c28349b6a54b',
+            title: 'Sportsee',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
             description:
-                  "Création d'une application qui permet de visualisé tous les logements disponibles et une visualisation plus précises du logement lorsque l'on clic dessus ",
-            stack: ['React.Js', 'react-router-dom'],
+                  "Création d'une application qui renvoie des données sur des éléments graphique. afin de suivre l'évolution des données en fonctions de tel personnes ",
+            stack: ['React.js', 'CSS', 'Recharts.js', 'Node.js', 'Mock', 'API'],
             goal: [
-                  'Créer des composants avec React',
-                  "Développer les routes d'une application web avec React Router",
-                  'Initialiser une application web avec un framework',
+                  "Assurer la qualité des données d'une application",
+                  "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
+                  'Interagir avec un service Web',
             ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/SchmittFrancois_11_25052022',
-            projectUrl: 'https://schmitt-francois-kasa.vercel.app/',
+                  'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
+            projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
+            __v: 0,
+      },
+      
+      {
+            id: '648d0688aaeb4790aed5',
+            title: 'Les petits plats',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plats.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+4.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
+            ],
+            description:
+                  "Création d'une application comme Marmiton, avoir une quantité de recette, et de créer un algorithme de recherche",
+            stack: ['JavaScript', 'CSS'],
+            goal: [
+                  'Analyser un problème informatique',
+                  'Développer un algorithme pour résoudre un problème',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_7_Les_Petits_Plats_08052022',
+            projectUrl: 'https://les-petits-plats-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
@@ -151,28 +167,6 @@ const PROJECT_DATA = [
             githubUrl:
                   'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
             projectUrl: 'https://schmitt-francois-booki.vercel.app/',
-            __v: 0,
-      },
-      {
-            id: '648d0688aaeb4790aed5',
-            title: 'Les petits plats',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plats.png',
-            allImage: [
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+4.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
-            ],
-            description:
-                  "Création d'une application comme Marmiton, avoir une quantité de recette, et de créer un algorithme de recherche",
-            stack: ['JavaScript', 'CSS'],
-            goal: [
-                  'Analyser un problème informatique',
-                  'Développer un algorithme pour résoudre un problème',
-            ],
-            githubUrl:
-                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_7_Les_Petits_Plats_08052022',
-            projectUrl: 'https://les-petits-plats-francoisschmitt.vercel.app/',
             __v: 0,
       },
       {
@@ -198,23 +192,8 @@ const PROJECT_DATA = [
             projectUrl: 'https://ohmyfood-francoisschmitt.vercel.app/',
             __v: 0,
       },
-      {
-            id: '757b3b89c28349b6a54b',
-            title: 'Sportsee',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
-            description:
-                  "Création d'une application qui renvoie des données sur des éléments graphique. afin de suivre l'évolution des données en fonctions de tel personnes ",
-            stack: ['React.js', 'CSS', 'Recharts.js', 'Node.js', 'Mock', 'API'],
-            goal: [
-                  "Assurer la qualité des données d'une application",
-                  "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
-                  'Interagir avec un service Web',
-            ],
-            githubUrl:
-                  'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
-            projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
-            __v: 0,
-      },
+  
+
       {
             id: '987f0bdd38554a068b32',
             title: 'FishEye',
@@ -239,6 +218,7 @@ const PROJECT_DATA = [
             projectUrl: 'https://fisheye-francoisschmitt.vercel.app/',
             __v: 0,
       },
+      
       {
             id: 'cad17b7b479046ca965d',
             title: 'GameOn',
@@ -257,6 +237,31 @@ const PROJECT_DATA = [
             goal: ['Programmer en JavaScript'],
             githubUrl: 'https://github.com/FrancoisSchmitt/GameOn',
             projectUrl: 'https://francois-schmitt-game-on.vercel.app/#',
+            __v: 0,
+      },
+      {
+            id: 'b3d56c064a4a426082eb',
+            title: 'Kasa',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_404.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_A-Propos.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Fiche-Logement.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_A-Propos.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Fiche-Logement.png',
+            ],
+            description:
+                  "Création d'une application qui permet de visualisé tous les logements disponibles et une visualisation plus précises du logement lorsque l'on clic dessus ",
+            stack: ['React.Js', 'react-router-dom'],
+            goal: [
+                  'Créer des composants avec React',
+                  "Développer les routes d'une application web avec React Router",
+                  'Initialiser une application web avec un framework',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/SchmittFrancois_11_25052022',
+            projectUrl: 'https://schmitt-francois-kasa.vercel.app/',
             __v: 0,
       },
 ];
