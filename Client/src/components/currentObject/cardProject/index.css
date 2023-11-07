@@ -13,7 +13,7 @@ img:hover {
 }
 
 @media (max-width: 640px) {
- .masonry{
-      height: auto;
- }
+      .masonry {
+            height: auto;
+      }
 }

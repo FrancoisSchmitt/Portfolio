@@ -107,7 +107,6 @@ const COURSES_DATA = [
 ];
 
 const PROJECT_DATA = [
-     
       {
             id: '757b3b89c28349b6a54b',
             title: 'Sportsee',
@@ -125,7 +124,7 @@ const PROJECT_DATA = [
             projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
             __v: 0,
       },
-      
+
       {
             id: '648d0688aaeb4790aed5',
             title: 'Les petits plats',
@@ -192,7 +191,6 @@ const PROJECT_DATA = [
             projectUrl: 'https://ohmyfood-francoisschmitt.vercel.app/',
             __v: 0,
       },
-  
 
       {
             id: '987f0bdd38554a068b32',
@@ -218,7 +216,7 @@ const PROJECT_DATA = [
             projectUrl: 'https://fisheye-francoisschmitt.vercel.app/',
             __v: 0,
       },
-      
+
       {
             id: 'cad17b7b479046ca965d',
             title: 'GameOn',

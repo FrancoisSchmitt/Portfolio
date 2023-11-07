@@ -39,6 +39,9 @@
       object-fit: cover;
       /* gap: 20%; */
       transition: 0.5s ease;
+      width: 100%;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      border-radius: 13px;
 }
 
 .icon-project {
@@ -71,9 +74,9 @@
       }
 
       .image-project {
-            width: 389px;
-            height: 180px;
+            width: 100%;
       }
+
       .grid-image {
             display: grid;
             grid-template-columns: 1fr;

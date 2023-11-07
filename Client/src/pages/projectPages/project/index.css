@@ -12,8 +12,6 @@
       gap: 50px;
 }
 
-
-
 @media (max-width: 1199px) {
       .masonry {
             column-count: 3;
@@ -29,7 +27,7 @@
 
 @media (max-width: 640px) {
       /* .masonry, */
-      .container{
+      .container {
             display: flex;
             justify-content: center;
       }

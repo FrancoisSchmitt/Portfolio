@@ -73,7 +73,6 @@
       font-size: 18px;
 }
 
-
 @media (max-width: 640px) {
       .carrer-list {
             width: 90%;
@@ -102,7 +101,7 @@
             width: 100%;
       }
 
-      .object-title{
+      .object-title {
             width: 35%;
       }
 }
