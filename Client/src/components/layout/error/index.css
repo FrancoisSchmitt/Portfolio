@@ -33,3 +33,20 @@
 .error-content li a {
       text-decoration: none;
 }
+
+
+
+@media (max-width: 640px) {
+      .error-content li h1 {
+            font-size: 5em;
+      }
+
+      .error-content li h2 {
+            font-size: 2em;
+      }
+
+      .error-content li p {
+            font-size: 1em;
+      }
+
+}

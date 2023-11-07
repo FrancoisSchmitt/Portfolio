@@ -96,7 +96,7 @@ export default function Homepage() {
                                     title={project?.title}
                                     link="Voir le projet"
                                     url="/detail-project/"
-                                    linked={project._id}
+                                    linked={project.id}
                               />
                         ))}
                   </section>
