@@ -18,6 +18,8 @@
       align-items: center;
       justify-content: space-between;
       gap: 8%;
+      opacity: 0;
+      animation: fadeIntest 10s ease-in forwards;
 }
 
 .card-list h1 {
@@ -29,9 +31,13 @@
       font-size: 2em;
 }
 
-@keyframes dash {
-      100% {
-            stroke-dashoffset: 0;
+@keyframes fadeIntest {
+      from {
+            opacity: 0;
+      }
+
+      to {
+            opacity: 1;
       }
 }
 
@@ -39,6 +45,7 @@
       .card-container {
             width: 90%;
       }
+
       .card-list h1 {
             font-size: 20px;
       }

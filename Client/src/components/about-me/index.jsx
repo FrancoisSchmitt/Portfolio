@@ -8,7 +8,7 @@ export default function AboutMe(props) {
             <>
                   <div className="aboutme-container">
                         <ul className="aboutme-content aboutme-wrap">
-                              <li>
+                              <li className="test">
                                     <h1>
                                           Hello, je suis {props.lastName}{' '}
                                           {props.firstName} {props.work}
@@ -17,7 +17,7 @@ export default function AboutMe(props) {
                               {props.whoIam}
                         </ul>
                         <ul className="aboutme-content">
-                              <li>
+                              <li className="profil-image">
                                     <img
                                           src={props.image}
                                           alt={props.altLastName}

@@ -1,12 +1,12 @@
 .aboutme-section {
-      height: 100vh;
+      height: 70vh;
 }
 
-.project-section,
+/* .project-section,
 .card-section {
       height: 100vh;
-      margin-top: 2%;
-}
+      margin-top: 2%; */
+/* } */
 
 .section-title {
       font-size: 4em;
@@ -26,6 +26,29 @@
 .test-project {
       text-decoration: none;
       color: #eeeeee;
+}
+
+.section-title {
+      opacity: 0;
+}
+
+.title-annimation {
+      opacity: 0;
+      transform: translateY(50px);
+      animation: fadeIn 500ms forwards;
+      transition:
+            transform 500ms cubic-bezier(0, 0, 0.5, 1),
+            opacity 500ms cubic-bezier(0, 0, 0.5, 1);
+}
+
+@keyframes fadeIn {
+      from {
+            transform: translateY(50px);
+      }
+      to {
+            transform: translateY(0);
+            opacity: 1;
+      }
 }
 
 @media (max-width: 640px) {

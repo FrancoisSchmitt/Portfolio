@@ -107,8 +107,6 @@ const COURSES_DATA = [
 ];
 
 const PROJECT_DATA = [
-     
-
       {
             id: '648d0688aaeb4790aed5',
             title: 'Les petits plats',

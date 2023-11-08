@@ -1,4 +1,5 @@
 import './index.css';
+import { useInView } from 'react-intersection-observer';
 
 import Card from '../../components/currentObject/card';
 import AboutMe from '../../components/about-me';
@@ -15,6 +16,14 @@ export default function Homepage() {
       const [projectData, setprojectData] = useState([]);
       const [experimentData, setExperimentData] = useState([]);
       const [coursesData, setCoursesData] = useState([]);
+
+      // const [scrollPosition, setScrollPosition] = useState(0);
+      // const handleScroll = () => {
+      //       const position = window.pageYOffset;
+      //       setScrollPosition(position);
+      //       console.log(scrollPosition)
+      // };
+
       useEffect(() => {
             (async () => {
                   let resultUser = userMainData();
@@ -26,7 +35,18 @@ export default function Homepage() {
                   let coursesResult = coursesMainData();
                   setCoursesData(await coursesResult);
             })();
+
+            // window.addEventListener('scroll', handleScroll, { passive: true });
+
+            // return () => {
+            //       window.removeEventListener('scroll', handleScroll);
+            // };
       }, []);
+      const { ref: magicSectionRef, inView: magicSectionIsVisible } = useInView(
+            {
+                  threshold: 1,
+            },
+      );
 
       const resultUsers = userData;
       const resultProject = projectData;
@@ -59,8 +79,16 @@ export default function Homepage() {
                               />
                         </section>
                   ))}
+
                   <section className="card-section">
-                        <h1 className="section-title">
+                        <h1
+                              ref={magicSectionRef}
+                              className={`section-title ${
+                                    magicSectionIsVisible
+                                          ? `title-annimation`
+                                          : ''
+                              }`}
+                        >
                               Éxperiences / Formations
                         </h1>
                         <div className="background-homepage-card">

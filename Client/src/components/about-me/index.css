@@ -76,5 +76,65 @@
 }
 
 @media (min-width: 1600px) {
-      
+}
+
+.profil-image {
+      opacity: 0;
+      animation: fadeInImage 6.5s ease-in forwards;
+      transition: 0.5s ease-in;
+}
+
+.goal-content-goal {
+      animation: fadeInDescription 5.5s;
+}
+
+.test {
+      /* opacity: 0; */
+      animation: fadeInDescription 7.5s;
+}
+
+.profil-image:hover {
+      transform: scale(1.05);
+}
+@keyframes fadeInTitle {
+      from {
+            opacity: 0;
+      }
+
+      to {
+            opacity: 1;
+      }
+}
+
+@keyframes fadeInDescription {
+      from {
+            opacity: 0;
+
+            /* margin-bottom: -100%; */
+      }
+
+      to {
+            /* margin-bottom: 0%; */
+            opacity: 1;
+      }
+}
+
+@keyframes fadeInSecondDesc {
+      from {
+            opacity: 0;
+      }
+
+      to {
+            opacity: 1;
+      }
+}
+
+@keyframes fadeInImage {
+      from {
+            opacity: 0;
+      }
+
+      to {
+            opacity: 1;
+      }
 }

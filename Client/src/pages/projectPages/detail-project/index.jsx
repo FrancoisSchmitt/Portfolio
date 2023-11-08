@@ -8,7 +8,6 @@ export default function DetailProject() {
       const id = useParams();
       const project = PROJECT_DATA.find((project) => project.id === id.id);
 
-     
       return (
             <>
                   {project ? (

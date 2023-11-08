@@ -1,12 +1,14 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import { useInView } from 'react-intersection-observer';
+
 import './index.css';
 import { Link } from 'react-router-dom';
 import { projectMainData } from '../../../service';
 import CardProject from '../../../components/currentObject/cardProject';
+import styles from './index.css';
 
 export default function ProjectPage() {
       const [projectData, setProjectData] = useState([]);
-
 
       useEffect(() => {
             (async () => {
@@ -14,6 +16,10 @@ export default function ProjectPage() {
                   setProjectData(await projectRes);
             })();
       }, []);
+
+      const { ref: myRef, inView: myElementIsVisible } = useInView();
+      const { ref: magicSectionRef, inView: magicSectionIsVisible } =
+            useInView();
       const resProject = projectData;
       return (
             <>
@@ -25,7 +31,12 @@ export default function ProjectPage() {
                                                 <Link
                                                       key={`/detail-project/-${index}`}
                                                       to={`/detail-project/${project.id}`}
-                                                      className="gallery-link"
+                                                      ref={magicSectionRef}
+                                                      className={`rocket ${
+                                                            magicSectionIsVisible
+                                                                  ? `animeRocket`
+                                                                  : ''
+                                                      }`}
                                                 >
                                                       <CardProject
                                                             image={
@@ -35,6 +46,11 @@ export default function ProjectPage() {
                                                                   project.image
                                                             }
                                                       />
+                                                      <p>
+                                                            {myElementIsVisible
+                                                                  ? 'Yes! 🥳'
+                                                                  : 'No 🙈'}
+                                                      </p>
                                                 </Link>
                                           ))}
                                     </li>
