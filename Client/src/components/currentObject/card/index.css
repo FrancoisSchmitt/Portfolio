@@ -1,71 +1,80 @@
 /********** CARD-CARRER **********/
 
 .card-container {
-      display: flex;
-      width: 70%;
-      height: 100px;
-      margin-left: auto;
-      margin-right: auto;
+    display: flex;
+    width: 70%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .card-container:not(:last-child) {
-      border-bottom: 2px solid #222831;
+    border-bottom: 2px solid #222831;
 }
+
 .card-list,
 .card-list-content {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
 .card-list {
-      width: 100%;
-      gap: 8%;
+    width: 100%;
+    gap: 8%;
 }
+
 .card-list-content {
-      justify-content: space-around;
-      width: 100%;
+    justify-content: space-around;
+    width: 100%;
 }
+
 .card-list li h1 {
-      display: flex;
-      width: 90%;
-      font-weight: 900;
-      text-transform: uppercase;
-      font-size: 2em;
+    display: flex;
+    width: 90%;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 2em;
 }
+
 @media (max-width: 640px) {
-      .card-container {
-            width: 90%;
-      }
-      .card-list h1 {
-            font-size: 20px;
-      }
+    .card-container {
+        width: 90%;
+    }
+
+    .card-list h1 {
+        font-size: 20px;
+    }
 }
 
 /********** END-CARD-CARRER **********/
 
 /********** ANIMATION-CARD-CARRER **********/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 
-.card-list-0,
-.card-list-1,
-.card-list-2,
-.card-list-3,
-.card-list-4,
-.card-list-5 {
-      opacity: 0;
-      transform: translateX(100px);
-      animation: revealCard 500ms forwards;
-      transition:
+    .card-list-0,
+    .card-list-1,
+    .card-list-2,
+    .card-list-3,
+    .card-list-4,
+    .card-list-5 {
+        opacity: 0;
+        transform: translateX(100px);
+        animation: revealCard 500ms forwards;
+        transition:
             transform 500ms cubic-bezier(0, 0, 0.5, 1),
             opacity 500ms cubic-bezier(0, 0, 0.5, 1);
-}
-@keyframes revealCard {
-      from {
-            transform: translateX(100px);
-      }
+    }
 
-      to {
+    @keyframes revealCard {
+        from {
+            transform: translateX(100px);
+        }
+
+        to {
             transform: translateX(0);
             opacity: 1;
-      }
+        }
+    }
 }
-
-/********** END-ANIMATION-CARD-CARRER **********/
+    /********** END-ANIMATION-CARD-CARRER **********/

@@ -1,4 +1,7 @@
 /********** ANIMATION-CARD-TITLE **********/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+
 .section-title-1,
 .section-title-2 {
       opacity: 0;
@@ -31,7 +34,7 @@
             opacity: 1;
       }
 }
-
+}
 /********** END-ANIMATION-CARD-TITLE **********/
 
 
