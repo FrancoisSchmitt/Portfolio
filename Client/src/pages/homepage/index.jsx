@@ -17,13 +17,6 @@ export default function Homepage() {
       const [experimentData, setExperimentData] = useState([]);
       const [coursesData, setCoursesData] = useState([]);
 
-      // const [scrollPosition, setScrollPosition] = useState(0);
-      // const handleScroll = () => {
-      //       const position = window.pageYOffset;
-      //       setScrollPosition(position);
-      //       console.log(scrollPosition)
-      // };
-
       useEffect(() => {
             (async () => {
                   let resultUser = userMainData();
@@ -35,23 +28,22 @@ export default function Homepage() {
                   let coursesResult = coursesMainData();
                   setCoursesData(await coursesResult);
             })();
-
-            // window.addEventListener('scroll', handleScroll, { passive: true });
-
-            // return () => {
-            //       window.removeEventListener('scroll', handleScroll);
-            // };
       }, []);
-      const { ref: magicSectionRef, inView: magicSectionIsVisible } = useInView(
-            {
-                  threshold: 1,
-            },
-      );
+
+      const { ref: titleSection1, inView: title1IsVisible } = useInView({
+            threshold: 1,
+            initialInView: true,
+      });
+      const { ref: titleSection2, inView: title2IsVisible } = useInView({
+            threshold: 1,
+            initialInView: true,
+      });
 
       const resultUsers = userData;
       const resultProject = projectData;
       const resultExperiment = experimentData;
       const resultCourses = coursesData;
+      console.log(resultExperiment);
 
       return (
             <>
@@ -80,46 +72,45 @@ export default function Homepage() {
                         </section>
                   ))}
 
-                  <section className="card-section">
+                  <section className="carrer-section">
                         <h1
-                              ref={magicSectionRef}
-                              className={`section-title ${
-                                    magicSectionIsVisible
-                                          ? `title-annimation`
-                                          : ''
+                              ref={titleSection1}
+                              className={`section-title-1 ${
+                                    title1IsVisible ? `title-annimation-1` : ''
                               }`}
                         >
                               Éxperiences / Formations
                         </h1>
-                        <div className="background-homepage-card">
-                              <div className="homepage-card-container">
-                                    {resultExperiment
-                                          .slice(0, 5)
-                                          .map((experiment, index) => (
-                                                <Card
-                                                      key={`/project/-${index}`}
-                                                      title={
-                                                            experiment?.experimentsName
-                                                      }
-                                                />
-                                          ))}
-                                    {resultCourses
-                                          .slice(0, 5)
-                                          .map((courses, index) => (
-                                                <Card
-                                                      key={`/project/-${index}`}
-                                                      title={
-                                                            courses?.coursesName
-                                                      }
-                                                />
-                                          ))}
-                              </div>
-                        </div>
+
+                        {resultExperiment
+                              .slice(0, 5)
+                              .map((experiment, index) => (
+                                    <Card
+                                          index={index + 1}
+                                          key={`/project/-${index + 1}`}
+                                          title={experiment?.experimentsName}
+                                    />
+                              ))}
+                        {resultCourses.slice(0, 5).map((courses, index) => (
+                              <Card
+                                    index={index + 2}
+                                    key={`/project/-${index}`}
+                                    title={courses?.coursesName}
+                              />
+                        ))}
                   </section>
                   <section className="project-section">
-                        <h1 className="section-title">Projets réaliser</h1>
+                        <h1
+                              ref={titleSection2}
+                              className={`section-title-1 ${
+                                    title2IsVisible ? `title-annimation-2` : ''
+                              }`}
+                        >
+                              Projets réaliser
+                        </h1>
                         {resultProject.slice(0, 5).map((project, index) => (
                               <Card
+                                    index={index + 1}
                                     key={`/project/-${index}`}
                                     title={project?.title}
                                     link="Voir le projet"

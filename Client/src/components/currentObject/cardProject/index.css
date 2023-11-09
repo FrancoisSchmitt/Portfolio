@@ -4,13 +4,14 @@
       object-fit: cover;
       margin: 0;
       width: 100%;
-      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      box-shadow: 2px 4px 12px rgba(255, 255, 255, 0.08);
       border-radius: 13px;
       /* animation: fadeIn 5s; */
 }
 
 .masonry:hover {
-      transform: scale(1.05);
+      transform: scale(1.01);
+      box-shadow: 2px 4px 16px rgba(255, 255, 255, 0.24);
 }
 
 @media (max-width: 640px) {

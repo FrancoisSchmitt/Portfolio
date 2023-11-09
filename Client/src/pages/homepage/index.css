@@ -1,14 +1,52 @@
+/********** ANIMATION-CARD-TITLE **********/
+.section-title-1,
+.section-title-2 {
+      opacity: 0;
+}
+
+.title-annimation-1,
+.title-annimation-2 {
+      opacity: 0;
+      animation: revealTitle 500ms forwards;
+      transition:
+            transform 500ms cubic-bezier(0, 0, 0.5, 1),
+            opacity 500ms cubic-bezier(0, 0, 0.5, 1);
+}
+
+.title-annimation-1 {
+      transform: translateY(25px);
+}
+
+.title-annimation-2 {
+      transform: translateY(100px);
+}
+
+@keyframes revealTitle {
+      from {
+            transform: translateY(25px);
+      }
+
+      to {
+            transform: translateY(0);
+            opacity: 1;
+      }
+}
+
+/********** END-ANIMATION-CARD-TITLE **********/
+
+
+
+/********** MAIN **********/
 .aboutme-section {
       height: 70vh;
 }
 
-/* .project-section,
-.card-section {
-      height: 100vh;
-      margin-top: 2%; */
-/* } */
+.carrer-section {
+      height: 60vh;
+}
 
-.section-title {
+.section-title-1,
+.section-title-2 {
       font-size: 4em;
       font-weight: 900;
       width: 80%;
@@ -23,41 +61,13 @@
       -webkit-text-stroke-width: 1px;
 }
 
-.test-project {
-      text-decoration: none;
-      color: #eeeeee;
-}
-
-.section-title {
-      opacity: 0;
-}
-
-.title-annimation {
-      opacity: 0;
-      transform: translateY(50px);
-      animation: fadeIn 500ms forwards;
-      transition:
-            transform 500ms cubic-bezier(0, 0, 0.5, 1),
-            opacity 500ms cubic-bezier(0, 0, 0.5, 1);
-}
-
-@keyframes fadeIn {
-      from {
-            transform: translateY(25px);
-      }
-      to {
-            transform: translateY(0);
-            opacity: 1;
-      }
-}
-
 @media (max-width: 640px) {
       .aboutme-section {
             height: 70vh;
       }
 
       .project-section,
-      .card-section {
+      .carrer-section {
             height: 70vh;
       }
 
@@ -74,3 +84,6 @@
             margin-bottom: 2%;
       }
 }
+
+
+/********** END-MAIN **********/

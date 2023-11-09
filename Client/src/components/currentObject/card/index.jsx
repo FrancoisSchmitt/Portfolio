@@ -8,28 +8,27 @@ import { useInView } from 'react-intersection-observer';
  * @returns
  */
 export default function Card(props) {
-      const { ref: ulRef, inView: ulIsVisible } = useInView();
+      const { ref: ulRef, inView: elementIsVisible } = useInView();
       return (
             <>
                   <div className="card-container">
-                        <ul
-                              ref={ulRef}
-                              className={`card-list ${
-                                    ulIsVisible ? `card-section-annimation` : ''
-                              }`}
-                        >
-                              <li>
-                                    <h1>{props.title}</h1>
-                              </li>
-
-                              <Link
-                                    to={`${props.url}${props.linked}`}
-                                    className="test-project"
+                        <ul className="card-list">
+                              <li
+                                    ref={ulRef}
+                                    className={`card-list-content ${
+                                          elementIsVisible
+                                                ? `card-list-${props.index}`
+                                                : ''
+                                    }`}
                               >
-                                    <li>
+                                    <h1>{props.title}</h1>
+                                    <Link
+                                          to={`${props.url}${props.linked}`}
+                                          className="link-project"
+                                    >
                                           <p>{props.link}</p>
-                                    </li>
-                              </Link>
+                                    </Link>
+                              </li>
                         </ul>
                   </div>
             </>
