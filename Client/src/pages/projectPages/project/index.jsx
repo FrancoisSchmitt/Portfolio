@@ -17,9 +17,6 @@ export default function ProjectPage() {
             })();
       }, []);
 
-      const { ref: myRef, inView: myElementIsVisible } = useInView();
-      const { ref: magicSectionRef, inView: magicSectionIsVisible } =
-            useInView();
       const resProject = projectData;
       return (
             <>
@@ -31,12 +28,6 @@ export default function ProjectPage() {
                                                 <Link
                                                       key={`/detail-project/-${index}`}
                                                       to={`/detail-project/${project.id}`}
-                                                      ref={magicSectionRef}
-                                                      className={`rocket ${
-                                                            magicSectionIsVisible
-                                                                  ? `animeRocket`
-                                                                  : ''
-                                                      }`}
                                                 >
                                                       <CardProject
                                                             image={
@@ -46,11 +37,7 @@ export default function ProjectPage() {
                                                                   project.image
                                                             }
                                                       />
-                                                      <p>
-                                                            {myElementIsVisible
-                                                                  ? 'Yes! 🥳'
-                                                                  : 'No 🙈'}
-                                                      </p>
+                                                      
                                                 </Link>
                                           ))}
                                     </li>

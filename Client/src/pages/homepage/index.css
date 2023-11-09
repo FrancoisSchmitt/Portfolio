@@ -1,43 +1,9 @@
-/********** ANIMATION-CARD-TITLE **********/
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-
-
-.section-title-1,
-.section-title-2 {
-      opacity: 0;
+/********** ABOUT-ME **********/
+.homepage-content-description {
+      animation: fadeInDescription 5.5s;
 }
 
-.title-annimation-1,
-.title-annimation-2 {
-      opacity: 0;
-      animation: revealTitle 500ms forwards;
-      transition:
-            transform 500ms cubic-bezier(0, 0, 0.5, 1),
-            opacity 500ms cubic-bezier(0, 0, 0.5, 1);
-}
-
-.title-annimation-1 {
-      transform: translateY(25px);
-}
-
-.title-annimation-2 {
-      transform: translateY(100px);
-}
-
-@keyframes revealTitle {
-      from {
-            transform: translateY(25px);
-      }
-
-      to {
-            transform: translateY(0);
-            opacity: 1;
-      }
-}
-}
-/********** END-ANIMATION-CARD-TITLE **********/
-
-
+/********** END-ABOUT-ME **********/
 
 /********** MAIN **********/
 .aboutme-section {
@@ -88,5 +54,90 @@
       }
 }
 
-
 /********** END-MAIN **********/
+
+/********** ANIMATION-CARD-TITLE **********/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+      .section-title-1,
+      .section-title-2 {
+            opacity: 0;
+      }
+
+      .title-annimation-1,
+      .title-annimation-2 {
+            opacity: 0;
+            animation: revealTitle 500ms forwards;
+            transition:
+                  transform 500ms cubic-bezier(0, 0, 0.5, 1),
+                  opacity 500ms cubic-bezier(0, 0, 0.5, 1);
+      }
+
+      .title-annimation-1 {
+            transform: translateY(25px);
+      }
+
+      .title-annimation-2 {
+            transform: translateY(100px);
+      }
+
+      @keyframes revealTitle {
+            from {
+                  transform: translateY(25px);
+            }
+
+            to {
+                  transform: translateY(0);
+                  opacity: 1;
+            }
+      }
+}
+
+/********** END-ANIMATION-CARD-TITLE **********/
+
+/********** ANIMATION-ABOUT-ME **********/
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+
+      .homepage-content-description{
+            opacity: 0;
+      }
+       .homepage-content-description-animation-1,
+      .homepage-content-description-animation-2 {
+            opacity: 0;
+            transition:
+                  transform 500ms cubic-bezier(0, 0, 0.5, 1),
+                  opacity 500ms cubic-bezier(0, 0, 0.5, 1);
+      }
+
+      .homepage-content-description-animation-1 {
+            animation: revealDescriptionAboutMe 500ms forwards;
+      }
+
+      .homepage-content-description-animation-2 {
+            animation: secondRevealDescriptionAboutMe 500ms forwards;
+      }
+
+      @keyframes revealDescriptionAboutMe {
+            from {
+                  transform: translateY(-25px);
+            }
+
+            to {
+                  transform: translateX(0);
+                  opacity: 1;
+            }
+      }
+
+      @keyframes secondRevealDescriptionAboutMe {
+            from {
+                  transform: translateY(25px);
+            }
+
+            to {
+                  transform: translateX(0);
+                  opacity: 1;
+            }
+      }
+}
+
+/********** END-ANIMATION-ABOUT-ME **********/

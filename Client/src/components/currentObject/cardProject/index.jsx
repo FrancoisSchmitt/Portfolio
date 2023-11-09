@@ -1,3 +1,4 @@
+import { useInView } from 'react-intersection-observer';
 import './index.css';
 
 /**
@@ -7,6 +8,7 @@ import './index.css';
  */
 
 export default function CardProject(props) {
+
       return (
             <>
                   <img
