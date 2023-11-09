@@ -74,7 +74,7 @@
             height: 70vh;
       }
 
-      .section-title {
+      .section-title-1, .section-title-2 {
             width: 90%;
             margin-left: auto;
             margin-right: auto;
