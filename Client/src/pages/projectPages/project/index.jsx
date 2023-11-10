@@ -37,7 +37,6 @@ export default function ProjectPage() {
                                                                   project.image
                                                             }
                                                       />
-                                                      
                                                 </Link>
                                           ))}
                                     </li>

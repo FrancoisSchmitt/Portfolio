@@ -75,26 +75,18 @@
       }
 }
 
-@media (min-width: 1600px) {}
-
-
-
-
-
-
-
-
-
+@media (min-width: 1600px) {
+}
 
 /********** ANIMATION-ABOUT-ME **********/
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
-
-
-      .homepage-aboutme-image, .homepage-aboutme-title {
+      .homepage-aboutme-image,
+      .homepage-aboutme-title {
             opacity: 0;
       }
 
-      .homepage-aboutme-image-animation, .homepage-aboutme-title-animation {
+      .homepage-aboutme-image-animation,
+      .homepage-aboutme-title-animation {
             opacity: 0;
             transition:
                   transform 500ms cubic-bezier(0, 0, 0.5, 1),
@@ -103,7 +95,6 @@
 
       .homepage-aboutme-title-animation {
             animation: revealTitleAboutMe 500ms forwards;
-
       }
 
       .homepage-aboutme-image-animation {
@@ -112,9 +103,9 @@
 
       .homepage-aboutme-image img:hover {
             transform: scale(1.05);
-            transition: .5s;
+            transition: 0.5s;
       }
-      
+
       @keyframes revealImageAboutMe {
             from {
                   transform: rotateX(-90deg);

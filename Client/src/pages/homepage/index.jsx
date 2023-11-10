@@ -38,10 +38,11 @@ export default function Homepage() {
             threshold: 1,
             initialInView: true,
       });
-      const { ref: descriptionAboutMe, inView: descriptionAboutMeIsVisible } = useInView({
-            threshold: 1,
-            initialInView: true,
-      });
+      const { ref: descriptionAboutMe, inView: descriptionAboutMeIsVisible } =
+            useInView({
+                  threshold: 1,
+                  initialInView: true,
+            });
 
       const resultUsers = userData;
       const resultProject = projectData;
@@ -64,10 +65,15 @@ export default function Homepage() {
                                           (whoIam, index) => (
                                                 <li
                                                       key={`goal-${index}`}
-                                                      
                                                       ref={descriptionAboutMe}
-                                                      className={`homepage-content-description ${descriptionAboutMeIsVisible ? `homepage-content-description-animation-${index+1}` : ''
-                                                            }`}
+                                                      className={`homepage-content-description ${
+                                                            descriptionAboutMeIsVisible
+                                                                  ? `homepage-content-description-animation-${
+                                                                          index +
+                                                                          1
+                                                                    }`
+                                                                  : ''
+                                                      }`}
                                                 >
                                                       {whoIam}
                                                 </li>

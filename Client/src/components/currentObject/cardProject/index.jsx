@@ -8,7 +8,6 @@ import './index.css';
  */
 
 export default function CardProject(props) {
-
       return (
             <>
                   <img

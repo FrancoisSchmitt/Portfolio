@@ -1,4 +1,6 @@
-.detail-project {
+/********** PROJECT-DETAIL **********/
+
+/* .detail-project {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -34,10 +36,8 @@
 }
 
 .image-project {
-      /* width: 200px; */
       max-height: 327px;
       object-fit: cover;
-      /* gap: 20%; */
       transition: 0.5s ease;
       width: 100%;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -82,4 +82,4 @@
             grid-template-columns: 1fr;
             padding-bottom: auto;
       }
-}
+} */

@@ -5,8 +5,7 @@ import './index.css';
  * @returns
  */
 export default function AboutMe(props) {
-
-      const { ref: imageAboutMe, inView:imageAboutMeIsVisible } = useInView({
+      const { ref: imageAboutMe, inView: imageAboutMeIsVisible } = useInView({
             threshold: 0,
             initialInView: true,
       });
@@ -21,7 +20,12 @@ export default function AboutMe(props) {
                               <li className="aboutme-list-title">
                                     <h1
                                           ref={titleAboutMe}
-                                          className={`homepage-aboutme-title ${titleAboutMeIsVisible ? `homepage-aboutme-title-animation` : ''}`}>
+                                          className={`homepage-aboutme-title ${
+                                                titleAboutMeIsVisible
+                                                      ? `homepage-aboutme-title-animation`
+                                                      : ''
+                                          }`}
+                                    >
                                           Hello, je suis {props.lastName}{' '}
                                           {props.firstName} {props.work}
                                     </h1>
@@ -31,7 +35,12 @@ export default function AboutMe(props) {
                         <ul className="aboutme-content">
                               <li
                                     ref={imageAboutMe}
-                                    className={`homepage-aboutme-image ${imageAboutMeIsVisible ? `homepage-aboutme-image-animation` : ''}`}>
+                                    className={`homepage-aboutme-image ${
+                                          imageAboutMeIsVisible
+                                                ? `homepage-aboutme-image-animation`
+                                                : ''
+                                    }`}
+                              >
                                     <img
                                           src={props.image}
                                           alt={props.altLastName}
@@ -42,5 +51,3 @@ export default function AboutMe(props) {
             </>
       );
 }
-
-
