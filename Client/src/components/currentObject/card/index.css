@@ -59,7 +59,7 @@
 /********** END-CARD-CARRER **********/
 
 /********** ANIMATION-CARD-CARRER **********/
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-device-width: 1200px)  {
       .card-list-0,
       .card-list-1,
       .card-list-2,
