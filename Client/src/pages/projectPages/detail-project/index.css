@@ -9,6 +9,10 @@
       }
 }
 
+.detail-project-section {
+      padding-bottom: 20%;
+}
+
 .detail-project-section h1 {
       font-size: 48px;
       color: #85868a;
@@ -26,13 +30,14 @@
       border-radius: 15px;
 }
 
-.content-container,
-.project-list {
-      width: 100%;
-}
+
 
 .project-list {
+      width: 80%;
       padding: 67px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 }
 
 .content-container {
@@ -40,26 +45,43 @@
       grid-template-columns: 494px 1fr;
       justify-content: space-between;
       align-items: center;
+      width: 100%;
 }
 
-/* .project-list li {
-      display: flex;
-      flex-direction: row;
-} */
+.project-list li:not(:last-child) {
+      border-bottom: 2px solid#85868a;
+      width: 100%;
+
+}
 
 picture {
       position: absolute;
 }
 
 .project-list li h4 {
-      font-size: 24px;
-      display: flex;
-      align-items: center;
-      width: 30%;
-      padding-left: 2em;
-      padding-top: 4em;
+      font-size: 28px;
+      line-height: 1.1428571429;
+      font-weight: 600;
+      letter-spacing: .007em;
+      letter-spacing: inherit;
       display: flex;
       justify-content: space-between;
+      align-items: baseline;
+      width: 100%;
+      position: relative;
+      padding-top: 1em;
+      padding-bottom: 1em;
+}
+
+.content-project-description p {
+      font-size: 17px;
+      color: #85868a;
+      line-height: 1.4705882353;
+      font-weight: 400;
+      letter-spacing: -0.022em;
+      margin-bottom: 2em;
+
+      font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .project-list li h4 svg {
@@ -94,8 +116,11 @@ picture {
 }
 
 .content-project-image img {
-      width: 100%;
+      width: 70%;
       object-fit: cover;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
 }
 
 .collapsed>div {
@@ -111,4 +136,49 @@ picture {
       opacity: 0;
 }
 
+
+/********** ANIMATION-PROJECT-DETAIL **********/
+
+@media screen and (min-device-width: 1200px) {
+
+      /* .container-description {
+            overflow: hidden;
+            max-height: 0;
+            animation: height 4s ease;
+
+      }
+
+
+
+      @keyframes height {
+            to {
+                  max-height: 1000px;
+                  height: 0;
+            }
+
+            from {
+                  overflow: hidden;
+                  height: auto;
+                  max-height: 0;
+            }
+      }
+
+      @keyframes heightOpen {
+            to {
+                  overflow: hidden;
+                  max-height: 0;
+            }
+
+            from {
+                  max-height: 1000px;
+
+            }
+      } */
+
+
+}
+
+
+
+/********** END-ANIMATION-PROJECT-DETAIL **********/
 /********** END-PROJECT-DETAIL **********/

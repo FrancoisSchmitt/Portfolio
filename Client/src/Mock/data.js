@@ -274,23 +274,23 @@ const PROJECT_DATA = [
                   {
                         title: 'Description',
                         description:
-                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!",
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_404.png',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!",
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_A-Propos.png',
                   },
                   {
                         title: 'Objectifs',
-                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Fiche-Logement.png',
                   },
                   {
                         title: 'Technologie utilisées ',
-                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam alias quod fugit expedita reiciendis corrupti iusto quisquam amet illum vero, voluptate officia, eligendi quae modi porro, eum earum aliquid placeat!',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
                   },
             ],
