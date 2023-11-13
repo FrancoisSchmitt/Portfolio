@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './index.css';
 import { useInView } from 'react-intersection-observer';
 
@@ -22,12 +22,12 @@ export default function Card(props) {
                                     }`}
                               >
                                     <h1>{props.title}</h1>
-                                    <Link
-                                          to={`${props.url}${props.linked}`}
+                                    <NavLink
+                                          to={`/project/${props.linked}`}
                                           className="link-project"
                                     >
                                           <p>{props.link}</p>
-                                    </Link>
+                                    </NavLink>
                               </li>
                         </ul>
                   </div>

@@ -36,7 +36,7 @@ export default function DetailProject() {
                                           <h1 className="project-detail-title">
                                                 {project?.title}
                                           </h1>
-                                          <Link to={project.github}>
+                                          <Link to={project.githubUrl}>
                                                 <img src={Github} alt="Logo" />
                                           </Link>
                                           <Link to={project.projectUrl}>
@@ -132,60 +132,6 @@ export default function DetailProject() {
                                           </div>
                                     </div>
                               </section>
-
-                              {/* <section className="project-detail-section">
-<div>
-
-<Detail
-title={project?.title}
-description={project?.description}
-github={project?.githubUrl}
-website={project?.projectUrl}
-image={project?.allImage?.map(
-(image, index) => (
-<li
-key={`image-${index}`}
-className="image-content-project"
->
-<img
-className="image-project"
-src={image}
-alt=""
-/>
-</li>
-),
-)}
-/>
-</div>
-</section>
-<section className="dropdown-detail-section">
-<Dropdown
-title="Objectifs"
-content={project?.goal?.map(
-(goal, index) => (
-<li
-key={`goal-${index}`}
-className="goal-content-goal"
->
-{goal}
-</li>
-),
-)}
-/>
-<Dropdown
-title="Technologies"
-content={project?.stack?.map(
-(Stack, index) => (
-<li
-key={`Stack-${index}`}
-className="Stack-content-Stack"
->
-{Stack}
-</li>
-),
-)}
-/>
-</section> */}
                         </>
                   ) : (
                         <Navigate replace to="/404" />

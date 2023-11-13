@@ -92,7 +92,7 @@ export default function Homepage() {
                                     title1IsVisible ? `title-annimation-1` : ''
                               }`}
                         >
-                              Éxperiences / Formations
+                              experiences / Formations
                         </h1>
 
                         {resultExperiment
@@ -119,7 +119,7 @@ export default function Homepage() {
                                     title2IsVisible ? `title-annimation-2` : ''
                               }`}
                         >
-                              Projets réaliser
+                              Projets réalisés
                         </h1>
                         {resultProject.slice(0, 5).map((project, index) => (
                               <Card
@@ -127,8 +127,7 @@ export default function Homepage() {
                                     key={`/project/-${index}`}
                                     title={project?.title}
                                     link="Voir le projet"
-                                    url="/detail-project/"
-                                    linked={project.id}
+                                    linked={project.title}
                               />
                         ))}
                   </section>
