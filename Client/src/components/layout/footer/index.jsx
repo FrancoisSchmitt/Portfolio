@@ -21,8 +21,8 @@ export default function Footer() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Accueil
@@ -39,8 +39,8 @@ export default function Footer() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Éxperiences
@@ -56,8 +56,8 @@ export default function Footer() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Formations
@@ -74,8 +74,8 @@ export default function Footer() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Projets
@@ -92,8 +92,8 @@ export default function Footer() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Linkedin
@@ -110,8 +110,8 @@ export default function Footer() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           GitHub

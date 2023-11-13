@@ -25,8 +25,8 @@ export default function Error() {
                                           isPending
                                                 ? 'pending'
                                                 : isActive
-                                                ? 'active'
-                                                : ''
+                                                  ? 'active'
+                                                  : ''
                                     }
                               >
                                     <Button name="Retourner à la page d'accueil" />

@@ -26,7 +26,6 @@ const EXPERIMENT_DATA = [
                   "Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
             ],
 
-
             experimentsGoal: [
                   'Création de cahier des charges',
                   'Travail en équipe',
@@ -117,22 +116,26 @@ const PROJECT_DATA = [
                         title: 'Description',
                         description:
                               "Les petits plats est une application web qui est similaire aux site Marmiton. il y'a une quantité de recette à afficher, l'ajout de différents « tag » et d'une barre de recherche",
-                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
-                        },
-                        {
-                              title: 'Procédure',
-                              description:
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
+                  },
+                  {
+                        title: 'Procédure',
+                        description:
                               "Pour ce projet j'ai éxaminer dans un premier temps quel était les différentes fonctionnalités a réaliser afin de mieux comprendre la problématique. J'ai ensuite entamé l'affichage de toutes les données qui ont été mock, une fois terminer je me suis penché sur la création de l'algorithme afin de faire la recherche par « tag » ou par une recherche basique ou les deux simultanément.",
-                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
                   },
                   {
                         title: 'Objectifs',
-                        description: ["Les différents objéctifs ont été d'analyser un problème informatique et de développer un algorithme pour résoudre un problème ",],
+                        description: [
+                              "Les différents objéctifs ont été d'analyser un problème informatique et de développer un algorithme pour résoudre un problème ",
+                        ],
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+4.png',
                   },
                   {
                         title: 'Technologie',
-                        description: ["Les téchnologies utilisées ont été JavaScript Vanilla, CSS" ],
+                        description: [
+                              'Les téchnologies utilisées ont été JavaScript Vanilla, CSS',
+                        ],
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
                   },
             ],
@@ -153,7 +156,7 @@ const PROJECT_DATA = [
                   {
                         title: 'Description',
                         description:
-                              "SportSee est une application web permettant au sportif de suivre leur évolutions grâce à des éléments graphique, les données ont été transmisses par une API, et des données mock il fallait géré les deux cas.",
+                              'SportSee est une application web permettant au sportif de suivre leur évolutions grâce à des éléments graphique, les données ont été transmisses par une API, et des données mock il fallait géré les deux cas.',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
                   },
                   {
@@ -164,16 +167,18 @@ const PROJECT_DATA = [
                   },
                   {
                         title: 'Objectifs',
-                        description: "Les différents objéctifs ont été d'assurer la qualité des données d'une application et de Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
+                        description:
+                              "Les différents objéctifs ont été d'assurer la qualité des données d'une application et de Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/sportSee1.png',
                   },
                   {
                         title: 'Technologie',
-                        description: 'les différentes technologie utilisées ont été React.Js, Recharts.Js, CSS, API / Mock et Node.Js',
+                        description:
+                              'les différentes technologie utilisées ont été React.Js, Recharts.Js, CSS, API / Mock et Node.Js',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/sportsee3.png',
                   },
             ],
-          
+
             githubUrl:
                   'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
             projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
@@ -198,12 +203,14 @@ const PROJECT_DATA = [
                   },
                   {
                         title: 'Objectifs',
-                        description: "L'objectif du projets et d'intégrer du contenu conformément à une maquette et d'implémenter une interface responsive",
+                        description:
+                              "L'objectif du projets et d'intégrer du contenu conformément à une maquette et d'implémenter une interface responsive",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Tablette.png',
                   },
                   {
                         title: 'Technologie',
-                        description: 'Les différents téchnologies utilisées ont été HTML et CSS',
+                        description:
+                              'Les différents téchnologies utilisées ont été HTML et CSS',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
                   },
             ],
@@ -226,17 +233,19 @@ const PROJECT_DATA = [
                   {
                         title: 'Procédure',
                         description:
-                              "Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet. ",
+                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet. ',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
                   },
                   {
                         title: 'Objectifs',
-                        description: "Les objectifs de ce projet ont été de mettre en œuvre des effets CSS graphiques avancés, d'assurer la cohérence graphique d'un site web, de mettre en place une structure de navigation pour un site web.",
+                        description:
+                              "Les objectifs de ce projet ont été de mettre en œuvre des effets CSS graphiques avancés, d'assurer la cohérence graphique d'un site web, de mettre en place une structure de navigation pour un site web.",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+%C3%80+la+fran%C3%A7aise.png',
                   },
                   {
                         title: 'Technologie',
-                        description: "Les technologies utilisées ont été HTML et Sass",
+                        description:
+                              'Les technologies utilisées ont été HTML et Sass',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
                   },
             ],
@@ -253,23 +262,25 @@ const PROJECT_DATA = [
                   {
                         title: 'Description',
                         description:
-                              " Kasa est une application web dédié au agence de location de logement. Une liste de logement est affiche, lorsque l’on clique sur un logement qui nous intéresse, on sera redirigiez sur le logement choisi avec une quantité de ressource supplémentaire.",
+                              ' Kasa est une application web dédié au agence de location de logement. Une liste de logement est affiche, lorsque l’on clique sur un logement qui nous intéresse, on sera redirigiez sur le logement choisi avec une quantité de ressource supplémentaire.',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+La+palette+du+gout.png',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              "Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ",
+                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
                   },
                   {
                         title: 'Objectifs',
-                        description: "Les objectifs de ce projets ont été la création d’un carousel et d'assuré un système de routes ",
+                        description:
+                              "Les objectifs de ce projets ont été la création d’un carousel et d'assuré un système de routes ",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+%C3%80+la+fran%C3%A7aise.png',
                   },
                   {
                         title: 'Technologie',
-                        description: "Les technologies utilisées ont été React.Js et CSS",
+                        description:
+                              'Les technologies utilisées ont été React.Js et CSS',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
                   },
             ],
@@ -293,17 +304,19 @@ const PROJECT_DATA = [
                   {
                         title: 'Procédure',
                         description:
-                              "Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ",
+                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/form-modal.png',
                   },
                   {
                         title: 'Objectifs',
-                        description: "Les différents objectifs ont été d'assurer l'accessibilité d'un site web, développeur une application web modulaire et de gérer les évènements d'un site avec JavaScript",
+                        description:
+                              "Les différents objectifs ont été d'assurer l'accessibilité d'un site web, développeur une application web modulaire et de gérer les évènements d'un site avec JavaScript",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/component.png',
                   },
                   {
                         title: 'Technologie',
-                        description: 'Les technologies utilisées ont été JavaScript et CSS',
+                        description:
+                              'Les technologies utilisées ont été JavaScript et CSS',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/photographer-page.png',
                   },
             ],
@@ -317,17 +330,6 @@ const PROJECT_DATA = [
             id: 'cad17b7b479046ca965d',
             title: 'GameOn',
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
-            allImage: [
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened-1.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/Homepage.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened.png',
-                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened-1.png',
-            ],
-            description:
-                  "Création d'une application permet de présenté et de s'insrire à un formulaire pour participer",
-            stack: ['HTML', 'CSS', 'JavaScript'],
             detail: [
                   {
                         title: 'Description',
@@ -338,26 +340,26 @@ const PROJECT_DATA = [
                   {
                         title: 'Procédure',
                         description:
-                              "Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ",
+                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened.png',
                   },
                   {
                         title: 'Objectifs',
-                        description: "Les différents objectifs ont été de ce projet et de programmer en JavaScript et de réaliser un formulaire fonctionnel",
+                        description:
+                              'Les différents objectifs ont été de ce projet et de programmer en JavaScript et de réaliser un formulaire fonctionnel',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened-1.png',
                   },
                   {
                         title: 'Technologie',
-                        description: 'Les technologies utilisées ont été HTML, CSS et JavaScript',
+                        description:
+                              'Les technologies utilisées ont été HTML, CSS et JavaScript',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/Homepage.png',
                   },
             ],
-            goal: ['Programmer en JavaScript'],
             githubUrl: 'https://github.com/FrancoisSchmitt/GameOn',
             projectUrl: 'https://francois-schmitt-game-on.vercel.app/#',
             __v: 0,
       },
-      
 ];
 
 module.exports = {

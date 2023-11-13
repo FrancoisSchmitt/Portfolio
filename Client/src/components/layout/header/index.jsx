@@ -19,8 +19,8 @@ export default function Header() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Accueil
@@ -36,8 +36,8 @@ export default function Header() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Expériences
@@ -53,8 +53,8 @@ export default function Header() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Formations
@@ -70,8 +70,8 @@ export default function Header() {
                                                 isPending
                                                       ? 'pending'
                                                       : isActive
-                                                      ? 'active'
-                                                      : ''
+                                                        ? 'active'
+                                                        : ''
                                           }
                                     >
                                           Projets

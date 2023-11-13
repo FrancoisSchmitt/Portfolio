@@ -40,8 +40,6 @@
       justify-content: center;
 }
 
-
-
 .content-container {
       display: grid;
       grid-template-columns: 494px 1fr;
@@ -88,6 +86,21 @@ picture {
       color: #85868a;
 }
 
+.content-title {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+}
+
+.content-title svg,
+.content-title img {
+      height: 40px;
+      width: 40px;
+}
+.content-title a {
+      margin: 1%;
+}
+
 .container-description {
       width: 90%;
       margin: 0;
@@ -124,7 +137,7 @@ picture {
       max-height: 800px;
 }
 
-.collapsed>div {
+.collapsed > div {
       height: 0;
       overflow: hidden;
 }

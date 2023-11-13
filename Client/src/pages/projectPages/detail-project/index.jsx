@@ -1,10 +1,12 @@
-import { Navigate } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { PROJECT_DATA } from '../../../Mock/data.js';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
+import Github from '../../../assets/github.svg';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 export default function DetailProject() {
       const title = useParams();
@@ -17,7 +19,7 @@ export default function DetailProject() {
 
       console.log(project);
       const data = project?.detail;
-      console.log(data)
+      console.log(data);
 
       const toggle = (i) => {
             setSelected(selected === i ? 0 : i);
@@ -30,8 +32,19 @@ export default function DetailProject() {
                   {project ? (
                         <>
                               <section className="detail-project-section">
-                                    
-                                    <h1 className='project-detail-title'>{project?.title}</h1>
+                                    <div className="content-title">
+                                          <h1 className="project-detail-title">
+                                                {project?.title}
+                                          </h1>
+                                          <Link to={project.github}>
+                                                <img src={Github} alt="Logo" />
+                                          </Link>
+                                          <Link to={project.projectUrl}>
+                                                <FontAwesomeIcon
+                                                      icon={faLink}
+                                                />
+                                          </Link>
+                                    </div>
                                     <div className="container-project">
                                           <div className="content-container">
                                                 <ul className="project-list">
