@@ -26,6 +26,7 @@ const EXPERIMENT_DATA = [
                   "Durant cette alternance, j'ai du créer un produit qui permet de faire un suivi de réparation de machine IRM que l'on retrouve dans les hopitaux.",
             ],
 
+
             experimentsGoal: [
                   'Création de cahier des charges',
                   'Travail en équipe',
@@ -107,170 +108,60 @@ const COURSES_DATA = [
 ];
 
 const PROJECT_DATA = [
-      // {
-      //       id: '648d0688aaeb4790aed5',
-      //       title: 'Les petits plats',
-      //       image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plats.png',
-      //       allImage: [
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+4.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
-      //       ],
-      //       description:
-      //             "Création d'une application comme Marmiton, avoir une quantité de recette, et de créer un algorithme de recherche",
-      //       stack: ['JavaScript', 'CSS'],
-      //       goal: [
-      //             'Analyser un problème informatique',
-      //             'Développer un algorithme pour résoudre un problème',
-      //       ],
-      //       githubUrl:
-      //             'https://github.com/FrancoisSchmitt/Schmitt_Francois_7_Les_Petits_Plats_08052022',
-      //       projectUrl: 'https://les-petits-plats-francoisschmitt.vercel.app/',
-      //       __v: 0,
-      // },
-      // {
-      //       id: '757b3b89c28349b6a54b',
-      //       title: 'Sportsee',
-      //       image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
-      //       description:
-      //             "Création d'une application qui renvoie des données sur des éléments graphique. afin de suivre l'évolution des données en fonctions de tel personnes ",
-      //       stack: ['React.js', 'CSS', 'Recharts.js', 'Node.js', 'Mock', 'API'],
-      //       goal: [
-      //             "Assurer la qualité des données d'une application",
-      //             "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
-      //             'Interagir avec un service Web',
-      //       ],
-      //       githubUrl:
-      //             'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
-      //       projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
-      //       __v: 0,
-      // },
-      // {
-      //       id: '77cd589970d74e75a42a',
-      //       title: 'Booki',
-      //       image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
-      //       allImage: [
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Mobile.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Tablette.png',
-      //       ],
-      //       description:
-      //             "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-      //       stack: ['HTML', 'CSS'],
-      //       goal: [
-      //             'Intégrer du contenu conformément à une maquette',
-      //             'Implémenter une interface responsive',
-      //       ],
-      //       githubUrl:
-      //             'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
-      //       projectUrl: 'https://schmitt-francois-booki.vercel.app/',
-      //       __v: 0,
-      // },
-      // {
-      //       id: '4fb2bf6c469c4eacacc8',
-      //       title: 'OhMyFood',
-      //       image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Homepage.png',
-      //       allImage: [
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+La+palette+du+gout.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+%C3%80+la+fran%C3%A7aise.png',
-      //       ],
-      //       description:
-      //             "Création d'une application de restauration comme Uber eat, la possibilité de choisir le restaurant disponnible et visualiser les différents repas",
-      //       stack: ['HTML', 'Sass'],
-      //       goal: [
-      //             'Mettre en œuvre des effets CSS graphiques avancés',
-      //             "Assurer la cohérence graphique d'un site web",
-      //             'Mettre en place une structure de navigation pour un site web',
-      //             'Mettre en place son environnement Front-End',
-      //             'Utiliser un système de gestion de versions pour le suivi du projet et son hébergement',
-      //       ],
-      //       githubUrl: 'https://github.com/FrancoisSchmitt/OhmyFood',
-      //       projectUrl: 'https://ohmyfood-francoisschmitt.vercel.app/',
-      //       __v: 0,
-      // },
-
-      // {
-      //       id: '987f0bdd38554a068b32',
-      //       title: 'FishEye',
-      //       image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
-      //       allImage: [
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/photographer-page.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/form-modal.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/component.png',
-      //       ],
-
-      //       description:
-      //             "Création d'une application dédiés au photographe afin qu'il puisse exposé leurs plus belle prises",
-      //       stack: ['HTML', 'CSS', 'JavaScript', 'Mock'],
-      //       goal: [
-      //             "Assurer l'accessibilité d'un site web",
-      //             'Développer une application web modulaire avec des design patterns',
-      //             'Ecrire du code JavaScript maintenable',
-      //             "Gérer les évènements d'un site avec JavaScript",
-      //       ],
-      //       githubUrl:
-      //             'https://github.com/FrancoisSchmitt/Schmitt_Francois_6_Fisheye_03092022',
-      //       projectUrl: 'https://fisheye-francoisschmitt.vercel.app/',
-      //       __v: 0,
-      // },
-
-      // {
-      //       id: 'cad17b7b479046ca965d',
-      //       title: 'GameOn',
-      //       image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
-      //       allImage: [
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened-1.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/Homepage.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened-1.png',
-      //       ],
-      //       description:
-      //             "Création d'une application permet de présenté et de s'insrire à un formulaire pour participer",
-      //       stack: ['HTML', 'CSS', 'JavaScript'],
-      //       goal: ['Programmer en JavaScript'],
-      //       githubUrl: 'https://github.com/FrancoisSchmitt/GameOn',
-      //       projectUrl: 'https://francois-schmitt-game-on.vercel.app/#',
-      //       __v: 0,
-      // },
-      // {
-      //       id: 'b3d56c064a4a426082eb',
-      //       title: 'Kasa',
-      //       image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
-      //       allImage: [
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_404.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_A-Propos.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Fiche-Logement.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_A-Propos.png',
-      //             'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Fiche-Logement.png',
-      //       ],
-      //       description:
-      //             "Création d'une application qui permet de visualisé tous les logements disponibles et une visualisation plus précises du logement lorsque l'on clic dessus ",
-      //       stack: ['React.Js', 'react-router-dom'],
-      //       goal: [
-      //             'Créer des composants avec React',
-      //             "Développer les routes d'une application web avec React Router",
-      //             'Initialiser une application web avec un framework',
-      //       ],
-      //       githubUrl:
-      //             'https://github.com/FrancoisSchmitt/SchmittFrancois_11_25052022',
-      //       projectUrl: 'https://schmitt-francois-kasa.vercel.app/',
-      //       __v: 0,
-      // },
       {
-            id: 'b3d56c064a4a426082eb',
-            title: 'Kasa',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
-
+            id: '648d0688aaeb4790aed5',
+            title: 'Les petits plats',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plats.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+4.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
+            ],
             description:
-                  "Création d'une application qui permet de visualisé tous les logements disponibles et une visualisation plus précises du logement lorsque l'on clic dessus ",
-            stack: ['React.Js', 'react-router-dom'],
-
-            host: [
+                  "Création d'une application comme Marmiton, avoir une quantité de recette, et de créer un algorithme de recherche",
+            stack: ['JavaScript', 'CSS'],
+            detail: [
+                  {
+                        title: 'Description',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
+                  },
+                  {
+                        title: 'Procédure',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
+                  },
+                  {
+                        title: 'Objectifs',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+4.png',
+                  },
+                  {
+                        title: 'Technologie utilisées ',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
+                  },
+            ],
+            goal: [
+                  'Analyser un problème informatique',
+                  'Développer un algorithme pour résoudre un problème',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_7_Les_Petits_Plats_08052022',
+            projectUrl: 'https://les-petits-plats-francoisschmitt.vercel.app/',
+            __v: 0,
+      },
+      {
+            id: '757b3b89c28349b6a54b',
+            title: 'Sportsee',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
+            description:
+                  "Création d'une application qui renvoie des données sur des éléments graphique. afin de suivre l'évolution des données en fonctions de tel personnes ",
+            stack: ['React.js', 'CSS', 'Recharts.js', 'Node.js', 'Mock', 'API'],
+            detail: [
                   {
                         title: 'Description',
                         description:
@@ -294,12 +185,203 @@ const PROJECT_DATA = [
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
                   },
             ],
-
+            goal: [
+                  "Assurer la qualité des données d'une application",
+                  "Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
+                  'Interagir avec un service Web',
+            ],
             githubUrl:
-                  'https://github.com/FrancoisSchmitt/SchmittFrancois_11_25052022',
-            projectUrl: 'https://schmitt-francois-kasa.vercel.app/',
+                  'https://github.com/FrancoisSchmitt/SchmittFrancois_12_22062022',
+            projectUrl: 'https://sportsee-francoisschmitt.vercel.app/',
             __v: 0,
       },
+      {
+            id: '77cd589970d74e75a42a',
+            title: 'Booki',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Booki.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Mobile.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Tablette.png',
+            ],
+            description:
+                  "Création d'une application qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            stack: ['HTML', 'CSS'],
+            detail: [
+                  {
+                        title: 'Description',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki.png',
+                  },
+                  {
+                        title: 'Procédure',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Mobile.png',
+                  },
+                  {
+                        title: 'Objectifs',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Tablette.png',
+                  },
+                  {
+                        title: 'Technologie utilisées ',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+                  },
+            ],
+            goal: [
+                  'Intégrer du contenu conformément à une maquette',
+                  'Implémenter une interface responsive',
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/schmitt_francois_2_Booki',
+            projectUrl: 'https://schmitt-francois-booki.vercel.app/',
+            __v: 0,
+      },
+      {
+            id: '4fb2bf6c469c4eacacc8',
+            title: 'OhMyFood',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Homepage.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+La+palette+du+gout.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+%C3%80+la+fran%C3%A7aise.png',
+            ],
+            description:
+                  "Création d'une application de restauration comme Uber eat, la possibilité de choisir le restaurant disponnible et visualiser les différents repas",
+            stack: ['HTML', 'Sass'],
+            detail: [
+                  {
+                        title: 'Description',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+La+palette+du+gout.png',
+                  },
+                  {
+                        title: 'Procédure',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
+                  },
+                  {
+                        title: 'Objectifs',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+%C3%80+la+fran%C3%A7aise.png',
+                  },
+                  {
+                        title: 'Technologie utilisées ',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+                  },
+            ],
+            goal: [
+                  'Mettre en œuvre des effets CSS graphiques avancés',
+                  "Assurer la cohérence graphique d'un site web",
+                  'Mettre en place une structure de navigation pour un site web',
+                  'Mettre en place son environnement Front-End',
+                  'Utiliser un système de gestion de versions pour le suivi du projet et son hébergement',
+            ],
+            githubUrl: 'https://github.com/FrancoisSchmitt/OhmyFood',
+            projectUrl: 'https://ohmyfood-francoisschmitt.vercel.app/',
+            __v: 0,
+      },
+
+      {
+            id: '987f0bdd38554a068b32',
+            title: 'FishEye',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/photographer-page.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/form-modal.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/component.png',
+            ],
+
+            description:
+                  "Création d'une application dédiés au photographe afin qu'il puisse exposé leurs plus belle prises",
+            stack: ['HTML', 'CSS', 'JavaScript', 'Mock'],
+            detail: [
+                  {
+                        title: 'Description',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/photographer-page.png',
+                  },
+                  {
+                        title: 'Procédure',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/form-modal.png',
+                  },
+                  {
+                        title: 'Objectifs',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/component.png',
+                  },
+                  {
+                        title: 'Technologie utilisées ',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+                  },
+            ],
+            goal: [
+                  "Assurer l'accessibilité d'un site web",
+                  'Développer une application web modulaire avec des design patterns',
+                  'Ecrire du code JavaScript maintenable',
+                  "Gérer les évènements d'un site avec JavaScript",
+            ],
+            githubUrl:
+                  'https://github.com/FrancoisSchmitt/Schmitt_Francois_6_Fisheye_03092022',
+            projectUrl: 'https://fisheye-francoisschmitt.vercel.app/',
+            __v: 0,
+      },
+
+      {
+            id: 'cad17b7b479046ca965d',
+            title: 'GameOn',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
+            allImage: [
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened-1.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/Homepage.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened.png',
+                  'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/HomePage-ModalOpened-1.png',
+            ],
+            description:
+                  "Création d'une application permet de présenté et de s'insrire à un formulaire pour participer",
+            stack: ['HTML', 'CSS', 'JavaScript'],
+            detail: [
+                  {
+                        title: 'Description',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
+                  },
+                  {
+                        title: 'Procédure',
+                        description:
+                              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened.png',
+                  },
+                  {
+                        title: 'Objectifs',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened-1.png',
+                  },
+                  {
+                        title: 'Technologie utilisées ',
+                        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ratione aperiam possimus mollitia deserunt deleniti ab officiis totam! Id neque culpa quia labore odio sed aliquam fugit placeat illum a?',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/Homepage.png',
+                  },
+            ],
+            goal: ['Programmer en JavaScript'],
+            githubUrl: 'https://github.com/FrancoisSchmitt/GameOn',
+            projectUrl: 'https://francois-schmitt-game-on.vercel.app/#',
+            __v: 0,
+      },
+      
 ];
 
 module.exports = {

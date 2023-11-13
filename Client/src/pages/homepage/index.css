@@ -58,7 +58,7 @@
 /********** END-MAIN **********/
 
 /********** ANIMATION-CARD-TITLE **********/
-@media screen and (min-device-width: 1200px)  {
+@media screen and (min-device-width: 1200px) {
       .section-title-1,
       .section-title-2 {
             opacity: 0;

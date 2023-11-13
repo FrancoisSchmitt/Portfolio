@@ -38,7 +38,7 @@ root.render(
                                     element={<ProjectPage />}
                               />
                               <Route
-                                    path="/detail-project/:id"
+                                    path="/project/:title"
                                     element={<DetailProject />}
                               />
                               <Route

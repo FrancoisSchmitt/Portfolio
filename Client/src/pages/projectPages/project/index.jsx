@@ -26,8 +26,8 @@ export default function ProjectPage() {
                                     <li>
                                           {resProject.map((project, index) => (
                                                 <Link
-                                                      key={`/detail-project/-${index}`}
-                                                      to={`/detail-project/${project.id}`}
+                                                      key={`/project/-${index}`}
+                                                      to={`/project/${project.title}`}
                                                 >
                                                       <CardProject
                                                             image={

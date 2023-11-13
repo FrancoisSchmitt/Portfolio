@@ -14,6 +14,18 @@ import {
  * @returns
  */
 
+function IDMock(id) {
+      let positionID = 0;
+      switch (id) {
+            case id:
+                  positionID = 0;
+                  break;
+            default:
+                  break;
+      }
+      return positionID;
+}
+
 async function userMainData() {
       try {
             const user = USER_MAIN_DATA;
@@ -30,6 +42,19 @@ async function experimentMainData() {
             console.log('getMainInformation : ' + error);
       }
 }
+
+// async function experimentMainData(id) {
+//       try {
+
+//                   const positionArray = IDMock(id);
+//                   const test = EXPERIMENT_DATA[positionArray];
+//                   return test;
+
+//       } catch (error) {
+//             console.log('getActivity : ' + error);
+//       }
+//       }
+
 async function coursesMainData() {
       try {
             const courses = COURSES_DATA;

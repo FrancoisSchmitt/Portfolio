@@ -1,29 +1,29 @@
 import { Navigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
-import Dropdown from '../../../components/currentObject/dropdown';
-import Detail from '../../../components/projectComponent/detail';
 import { PROJECT_DATA } from '../../../Mock/data.js';
 import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { useState } from 'react';
-import { useInView } from 'react-intersection-observer';
+import { useEffect, useState } from 'react';
 
 export default function DetailProject() {
-      const id = useParams();
+      const title = useParams();
 
-      const project = PROJECT_DATA.find((project) => project.id === id.id);
+      const project = PROJECT_DATA.find(
+            (project) => project.title === title.title,
+      );
 
       const [selected, setSelected] = useState(0);
 
-
-      const data = project?.host;
+      console.log(project);
+      const data = project?.detail;
 
       const toggle = (i) => {
             setSelected(selected === i ? 0 : i);
 
-            console.log(selected)
+            console.log(selected);
       };
+
       return (
             <>
                   {project ? (
@@ -38,18 +38,19 @@ export default function DetailProject() {
                                                                   className={
                                                                         selected ===
                                                                         i
-                                                                        ? `expanded show-${i+1}`
-                                                                        : 'collapsed'
+                                                                              ? `expanded show-${
+                                                                                      i +
+                                                                                      1
+                                                                                }`
+                                                                              : 'collapsed'
                                                                   }
-                                                            
-                                                                
                                                             >
                                                                   <h4
                                                                         onClick={() =>
                                                                               toggle(
                                                                                     i,
                                                                               )
-                                                                        } 
+                                                                        }
                                                                   >
                                                                         {
                                                                               item.title
@@ -57,8 +58,7 @@ export default function DetailProject() {
 
                                                                         {selected ===
                                                                         i ? (
-                                                                                    <FontAwesomeIcon 
-                                                                                          
+                                                                              <FontAwesomeIcon
                                                                                     icon={
                                                                                           faChevronDown
                                                                                     }
@@ -71,16 +71,17 @@ export default function DetailProject() {
                                                                               />
                                                                         )}
                                                                   </h4>
-                                                                  <div 
-                                                                        className={'container-description'}>
+                                                                  <div
+                                                                        className={
+                                                                              'container-description'
+                                                                        }
+                                                                  >
                                                                         <div className="content-project">
                                                                               <div className="content-project-description">
-                                                                                    <p
-                                                                                         >
-
-                                                                                    {
-                                                                                          item.description
-                                                                                    }
+                                                                                    <p>
+                                                                                          {
+                                                                                                item.description
+                                                                                          }
                                                                                     </p>
                                                                               </div>
                                                                         </div>
@@ -88,30 +89,34 @@ export default function DetailProject() {
                                                             </li>
                                                       ))}
                                                 </ul>
-                                                <div className='content-project-image'>
-                                                            {data.map(
-                                                                  (item, i) => (
-                                                      <picture className={selected === i ? '' : 'hidden'}>
-
-
-                                                                              <source 
-                                                                                    srcSet={item.image}
-                                                                                    media="test"
-                                                                                    />
-                                                                              <img 
-                                                                                    src={item.image}
-                                                                                    alt=""
-                                                                                    />
-
-                                                      </picture>
-                                                                                    ),
-                                                                                    )}
+                                                <div className="content-project-image">
+                                                      {data.map((item, i) => (
+                                                            <picture
+                                                                  className={
+                                                                        selected ===
+                                                                        i
+                                                                              ? ''
+                                                                              : 'hidden'
+                                                                  }
+                                                            >
+                                                                  <source
+                                                                        srcSet={
+                                                                              item.image
+                                                                        }
+                                                                        media="test"
+                                                                  />
+                                                                  <img
+                                                                        src={
+                                                                              item.image
+                                                                        }
+                                                                        alt=""
+                                                                  />
+                                                            </picture>
+                                                      ))}
                                                 </div>
                                           </div>
                                     </div>
                               </section>
-                              
-                              
 
                               {/* <section className="project-detail-section">
 <div>
