@@ -97,6 +97,7 @@ picture {
       height: 40px;
       width: 40px;
 }
+
 .content-title a {
       margin: 1%;
 }
@@ -135,9 +136,11 @@ picture {
       margin-left: auto;
       margin-right: auto;
       max-height: 800px;
+      border-radius: 13px;
+
 }
 
-.collapsed > div {
+.collapsed>div {
       height: 0;
       overflow: hidden;
 }

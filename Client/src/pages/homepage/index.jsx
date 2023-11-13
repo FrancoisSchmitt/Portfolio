@@ -48,7 +48,7 @@ export default function Homepage() {
       const resultProject = projectData;
       const resultExperiment = experimentData;
       const resultCourses = coursesData;
-      console.log(resultExperiment);
+
 
       return (
             <>

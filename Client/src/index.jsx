@@ -18,6 +18,21 @@ import Courses from './pages/carrerPages/courses';
 
 import { Outlet } from 'react-router-dom';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+const ScrollToTop = ({ children }) => {
+      const { pathname } = useLocation();
+
+      useEffect(() => {
+            window.scrollTo(0, 0);
+      }, [pathname]);
+
+      return children || null;
+};
+
+export default ScrollToTop;
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const PageLayout = () => (
       <>
@@ -29,6 +44,7 @@ const PageLayout = () => (
 root.render(
       <React.StrictMode>
             <BrowserRouter>
+                  <ScrollToTop>
                   {/* <Header /> */}
                   <Routes>
                         <Route element={<PageLayout />}>
@@ -54,7 +70,8 @@ root.render(
                         <Route path="/404" element={<Error404 />} />
                         <Route path="*" element={<Error404 />} />
                   </Routes>
-                  {/* <Footer /> */}
+                        {/* <Footer /> */}
+                  </ScrollToTop>
             </BrowserRouter>
       </React.StrictMode>,
 );

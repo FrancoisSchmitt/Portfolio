@@ -17,14 +17,10 @@ export default function DetailProject() {
 
       const [selected, setSelected] = useState(0);
 
-      console.log(project);
       const data = project?.detail;
-      console.log(data);
 
       const toggle = (i) => {
             setSelected(selected === i ? 0 : i);
-
-            console.log(selected);
       };
 
       return (
