@@ -8,7 +8,7 @@
 .header-nav {
       align-items: center;
       height: 10vh;
-      width: 50%;
+      width: 60%;
       margin-right: 2%;
 }
 
@@ -23,6 +23,7 @@
       font-weight: 500;
       color: #eeeeee;
       font-size: 18px;
+      text-transform: uppercase;
 }
 
 @media (max-width: 640px) {

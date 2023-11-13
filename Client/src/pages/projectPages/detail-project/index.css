@@ -19,6 +19,8 @@
       line-height: 1.0834933333;
       font-weight: 600;
       letter-spacing: -0.003em;
+      margin: 4%;
+      margin-left: 5%;
 }
 
 .container-project {
@@ -37,6 +39,8 @@
       flex-direction: column;
       justify-content: center;
 }
+
+
 
 .content-container {
       display: grid;
@@ -77,14 +81,7 @@ picture {
       font-weight: 400;
       letter-spacing: -0.022em;
       margin-bottom: 2em;
-
-      font-family:
-            SF Pro Text,
-            SF Pro Icons,
-            Helvetica Neue,
-            Helvetica,
-            Arial,
-            sans-serif;
+      flex-wrap: wrap;
 }
 
 .project-list li h4 svg {
@@ -92,7 +89,7 @@ picture {
 }
 
 .container-description {
-      width: 80%;
+      width: 90%;
       margin: 0;
 }
 
@@ -127,7 +124,7 @@ picture {
       max-height: 800px;
 }
 
-.collapsed > div {
+.collapsed>div {
       height: 0;
       overflow: hidden;
 }

@@ -31,7 +31,7 @@ export default function DetailProject() {
                         <>
                               <section className="detail-project-section">
                                     
-                                    <h1>{project?.title}</h1>
+                                    <h1 className='project-detail-title'>{project?.title}</h1>
                                     <div className="container-project">
                                           <div className="content-container">
                                                 <ul className="project-list">
