@@ -17,6 +17,7 @@ export default function DetailProject() {
 
       console.log(project);
       const data = project?.detail;
+      console.log(data)
 
       const toggle = (i) => {
             setSelected(selected === i ? 0 : i);
@@ -29,7 +30,8 @@ export default function DetailProject() {
                   {project ? (
                         <>
                               <section className="detail-project-section">
-                                    <h1>Kasa</h1>
+                                    
+                                    <h1>{project?.title}</h1>
                                     <div className="container-project">
                                           <div className="content-container">
                                                 <ul className="project-list">
