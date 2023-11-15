@@ -83,11 +83,11 @@ span {
       }
 }
 
-@media (min-width: 1600px) {}
+@media (min-width: 1600px) {
+}
 
 /********** ANIMATION-ABOUT-ME **********/
 @media screen and (min-device-width: 1200px) {
-
       .homepage-aboutme-image,
       .homepage-aboutme-title {
             opacity: 0;

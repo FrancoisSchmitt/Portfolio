@@ -31,7 +31,7 @@ export default function Footer() {
 
                               <li>
                                     <NavLink
-                                          to="/Experiment"
+                                          to="/Carrer"
                                           className={({
                                                 isActive,
                                                 isPending,
@@ -43,24 +43,7 @@ export default function Footer() {
                                                         : ''
                                           }
                                     >
-                                          Éxperiences
-                                    </NavLink>
-                              </li>
-                              <li>
-                                    <NavLink
-                                          to="/Courses"
-                                          className={({
-                                                isActive,
-                                                isPending,
-                                          }) =>
-                                                isPending
-                                                      ? 'pending'
-                                                      : isActive
-                                                        ? 'active'
-                                                        : ''
-                                          }
-                                    >
-                                          Formations
+                                          Expérience / Formations
                                     </NavLink>
                               </li>
 

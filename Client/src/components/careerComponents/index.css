@@ -2,108 +2,61 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 90%;
+      width: 80%;
       margin-left: auto;
       margin-right: auto;
       padding-bottom: 2%;
-}
-
-.carrer-list:not(:last-child) {
       border-bottom: 2px solid #222831;
 }
 
+.carrer-title {
+      font-size: 48px;
+      line-height: 1.0834933333;
+      font-weight: 600;
+      letter-spacing: -0.003em;
+      margin-top: 4%;
+      margin-bottom: 2%;
+}
+
 .carrer-list li {
-      margin: 2%;
-}
-
-.carrer-no-wrap {
-      display: flex;
-      flex-direction: row;
-      gap: 2%;
-      align-items: baseline;
-}
-
-.carrer-description {
-      width: 70%;
-      font-size: 18px;
+      width: 90%;
       margin-left: auto;
       margin-right: auto;
 }
 
-.object-title,
-.carrer-title {
-      font-weight: 700;
-}
-
-.object-title {
-      font-size: 30px;
-      border-bottom: 2px solid;
-      width: 10%;
-      margin-left: 15%;
-      margin-top: 3%;
-}
-
-.carrer-title {
-      font-size: 24px;
+.carrer-content-description {
       display: flex;
+      flex-direction: column;
       justify-content: space-around;
-      margin-left: 14.9%;
+      margin-top: 3%;
+      font-size: 22px;
+      margin-bottom: 4%;
+
 }
 
-.carrer-content-stack,
-.carrer-content-goal {
-      display: flex;
-      flex-direction: row;
-      align-items: baseline;
+.carrer-spec {
+      margin-top: .5%;
 }
 
-.carrer-content-goal {
-      margin-left: 17.4%;
+.carrer-spec small {
+      margin: 0;
+
 }
 
-.carrer-content-stack {
-      margin-left: 17.4%;
+.carrer-content-description p {
+      margin-bottom: 2%;
+      color: #85868a;
+
 }
 
-.carrer-content-goal li,
-.carrer-content-stack li,
-.carrer-content-goal p,
-.carrer-content-stack p {
-      margin: 5px;
-      font-size: 18px;
+.carrer-specificity {
+      font-size: 16px;
+      margin: 0.5%;
 }
 
-@media (max-width: 640px) {
-      .carrer-list {
-            width: 90%;
-            margin-left: auto;
-            margin-right: auto;
-      }
-
-      .carrer-list li {
-            width: 100%;
-            margin: 0;
-            margin-top: 5%;
-      }
-
-      .carrer-description {
-            width: 100%;
-      }
-
-      .carrer-no-wrap {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-      }
-
-      .carrer-title {
-            margin-left: 0;
-            width: 100%;
-      }
-
-      .object-title {
-            width: 35%;
-      }
+.carrer-jobs:nth-child(1) {
+      color: red;
+      font-size: 20px;
 }
 
 @media (min-width: 1600px) {
@@ -114,8 +67,10 @@
       .carrer-list li {
             margin: 1%;
       }
+}
 
-      .object-title {
-            width: 8.6%;
-      }
+
+.lol div div ul {
+display: grid;
+grid-template-columns: 1fr 1fr ;
 }

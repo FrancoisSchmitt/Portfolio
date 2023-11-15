@@ -28,7 +28,7 @@ export default function Header() {
                               </li>
                               <li>
                                     <NavLink
-                                          to="/Experiment"
+                                          to="/Carrer"
                                           className={({
                                                 isActive,
                                                 isPending,
@@ -40,24 +40,7 @@ export default function Header() {
                                                         : ''
                                           }
                                     >
-                                          Expériences
-                                    </NavLink>
-                              </li>
-                              <li>
-                                    <NavLink
-                                          to="/Courses"
-                                          className={({
-                                                isActive,
-                                                isPending,
-                                          }) =>
-                                                isPending
-                                                      ? 'pending'
-                                                      : isActive
-                                                        ? 'active'
-                                                        : ''
-                                          }
-                                    >
-                                          Formations
+                                          Expérience / Formations
                                     </NavLink>
                               </li>
                               <li>

@@ -6,7 +6,7 @@ import './normalize.css';
 import reportWebVitals from './reportWebVitals';
 
 import Homepage from './pages/homepage';
-import Experiment from './pages/carrerPages/experiment';
+
 import ThermsOfUsage from './pages/thermsOfuse';
 import Header from './components/layout/header';
 import Footer from './components/layout/footer';
@@ -14,12 +14,12 @@ import ProjectPage from './pages/projectPages/project';
 
 import DetailProject from './pages/projectPages/detail-project';
 import Error404 from './pages/404';
-import Courses from './pages/carrerPages/courses';
 
 import { Outlet } from 'react-router-dom';
 
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import Carrer from './pages/carrerPages';
 
 const ScrollToTop = ({ children }) => {
       const { pathname } = useLocation();
@@ -58,13 +58,10 @@ root.render(
                                           element={<DetailProject />}
                                     />
                                     <Route
-                                          path="/Experiment"
-                                          element={<Experiment />}
+                                          path="/Carrer"
+                                          element={<Carrer />}
                                     />
-                                    <Route
-                                          path="/Courses"
-                                          element={<Courses />}
-                                    />
+
                                     <Route
                                           path="/therms-of-usage"
                                           element={<ThermsOfUsage />}

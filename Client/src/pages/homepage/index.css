@@ -12,11 +12,12 @@
 
 .service-section {
       height: 100vh;
-}.carrer-section,
+}
+.carrer-section,
 .skill-section {
       height: 60vh;
 }
-.carrer-section{
+.carrer-section {
       margin-top: 2%;
 }
 .skill-section ul {
@@ -25,7 +26,7 @@
 
 .section-title-0,
 .section-title-1,
-.section-title-2, 
+.section-title-2,
 .section-title-3 {
       font-size: 4em;
       font-weight: 900;
@@ -72,10 +73,9 @@
 
 /********** ANIMATION-CARD-TITLE **********/
 @media screen and (min-device-width: 1200px) {
-
       .section-title-0,
       .section-title-1,
-      .section-title-2, 
+      .section-title-2,
       .section-title-3 {
             opacity: 0;
       }

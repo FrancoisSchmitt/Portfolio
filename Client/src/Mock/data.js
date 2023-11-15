@@ -19,6 +19,7 @@ const EXPERIMENT_DATA = [
       {
             id: '653901dee5d2fe5590dee811',
             experimentsName: 'Bruker',
+            experiment: 'Alternance',
             experimentsJobs: 'Développeur web',
 
             experimentsDescription: [
@@ -50,6 +51,7 @@ const EXPERIMENT_DATA = [
 const COURSES_DATA = [
       {
             coursesName: 'OpenClassrooms ',
+            courses: 'Formation',
             coursesJobs: "Développeur d'application JavaScript React",
             coursesLvl: 'Bac+ 3/4',
             coursesDateStart: 'Novembre 2021',
@@ -83,6 +85,7 @@ const COURSES_DATA = [
       },
       {
             coursesName: 'Web@cademie By Epitech ',
+            courses: 'Formation',
             coursesJobs: 'intégrateur / développeur web',
             coursesLvl: 'Bac+ 2',
             coursesDateStart: 'Décembre 2018',

@@ -105,19 +105,18 @@ export default function Homepage() {
                         <SkillComponents />
                   </section>
 
-
                   <section className="service-section">
                         <h1
                               ref={titleSection3}
-                              className={`section-title-3 ${title3IsVisible ? `title-annimation-3` : ''
-                                    }`}
+                              className={`section-title-3 ${
+                                    title3IsVisible ? `title-annimation-3` : ''
+                              }`}
                         >
                               Services
                         </h1>
                         <ServiceComponent />
                   </section>
-                  
-                  
+
                   <section className="carrer-section">
                         <h1
                               ref={titleSection1}
