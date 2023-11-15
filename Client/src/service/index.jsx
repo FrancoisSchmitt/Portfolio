@@ -14,8 +14,6 @@ import {
  * @returns
  */
 
-
-
 async function userMainData() {
       try {
             const user = USER_MAIN_DATA;
@@ -32,7 +30,6 @@ async function experimentMainData() {
             console.log('getMainInformation : ' + error);
       }
 }
-
 
 async function coursesMainData() {
       try {

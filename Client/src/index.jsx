@@ -45,31 +45,34 @@ root.render(
       <React.StrictMode>
             <BrowserRouter>
                   <ScrollToTop>
-                  {/* <Header /> */}
-                  <Routes>
-                        <Route element={<PageLayout />}>
-                              <Route path="/" element={<Homepage />} />
-                              <Route
-                                    path="/Project"
-                                    element={<ProjectPage />}
-                              />
-                              <Route
-                                    path="/project/:title"
-                                    element={<DetailProject />}
-                              />
-                              <Route
-                                    path="/Experiment"
-                                    element={<Experiment />}
-                              />
-                              <Route path="/Courses" element={<Courses />} />
-                              <Route
-                                    path="/therms-of-usage"
-                                    element={<ThermsOfUsage />}
-                              />
-                        </Route>
-                        <Route path="/404" element={<Error404 />} />
-                        <Route path="*" element={<Error404 />} />
-                  </Routes>
+                        {/* <Header /> */}
+                        <Routes>
+                              <Route element={<PageLayout />}>
+                                    <Route path="/" element={<Homepage />} />
+                                    <Route
+                                          path="/Project"
+                                          element={<ProjectPage />}
+                                    />
+                                    <Route
+                                          path="/project/:title"
+                                          element={<DetailProject />}
+                                    />
+                                    <Route
+                                          path="/Experiment"
+                                          element={<Experiment />}
+                                    />
+                                    <Route
+                                          path="/Courses"
+                                          element={<Courses />}
+                                    />
+                                    <Route
+                                          path="/therms-of-usage"
+                                          element={<ThermsOfUsage />}
+                                    />
+                              </Route>
+                              <Route path="/404" element={<Error404 />} />
+                              <Route path="*" element={<Error404 />} />
+                        </Routes>
                         {/* <Footer /> */}
                   </ScrollToTop>
             </BrowserRouter>

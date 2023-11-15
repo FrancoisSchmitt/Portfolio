@@ -137,10 +137,9 @@ picture {
       margin-right: auto;
       max-height: 800px;
       border-radius: 13px;
-
 }
 
-.collapsed>div {
+.collapsed > div {
       height: 0;
       overflow: hidden;
 }

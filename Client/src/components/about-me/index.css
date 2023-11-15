@@ -21,11 +21,19 @@
       width: 100%;
       font-size: 3.05vw;
       font-weight: 700;
+      margin-bottom: 2%;
+      color: #ffffff;
+}
+
+span {
+      font-size: 22px;
+      color: red;
 }
 
 .aboutme-content li {
       font-size: 20px;
       font-weight: 400;
+      color: #85868a;
 }
 
 .aboutme-content button {
@@ -75,11 +83,11 @@
       }
 }
 
-@media (min-width: 1600px) {
-}
+@media (min-width: 1600px) {}
 
 /********** ANIMATION-ABOUT-ME **********/
 @media screen and (min-device-width: 1200px) {
+
       .homepage-aboutme-image,
       .homepage-aboutme-title {
             opacity: 0;

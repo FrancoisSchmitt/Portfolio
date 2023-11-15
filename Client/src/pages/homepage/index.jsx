@@ -10,6 +10,8 @@ import {
       coursesMainData,
       projectMainData,
 } from '../../service';
+import SkillComponents from '../../components/skillComponents';
+import ServiceComponent from '../../components/serviceComponent';
 
 export default function Homepage() {
       const [userData, setUserData] = useState([]);
@@ -30,6 +32,14 @@ export default function Homepage() {
             })();
       }, []);
 
+      const { ref: titleSection, inView: titleIsVisible } = useInView({
+            threshold: 1,
+            initialInView: true,
+      });
+      const { ref: titleSection3, inView: title3IsVisible } = useInView({
+            threshold: 1,
+            initialInView: true,
+      });
       const { ref: titleSection1, inView: title1IsVisible } = useInView({
             threshold: 1,
             initialInView: true,
@@ -48,7 +58,6 @@ export default function Homepage() {
       const resultProject = projectData;
       const resultExperiment = experimentData;
       const resultCourses = coursesData;
-
 
       return (
             <>
@@ -84,7 +93,31 @@ export default function Homepage() {
                               />
                         </section>
                   ))}
+                  <section className="skill-section">
+                        <h1
+                              ref={titleSection}
+                              className={`section-title-0 ${
+                                    titleIsVisible ? `title-annimation-0` : ''
+                              }`}
+                        >
+                              Competences
+                        </h1>
+                        <SkillComponents />
+                  </section>
 
+
+                  <section className="service-section">
+                        <h1
+                              ref={titleSection3}
+                              className={`section-title-3 ${title3IsVisible ? `title-annimation-3` : ''
+                                    }`}
+                        >
+                              Services
+                        </h1>
+                        <ServiceComponent />
+                  </section>
+                  
+                  
                   <section className="carrer-section">
                         <h1
                               ref={titleSection1}

@@ -26,9 +26,10 @@ export default function AboutMe(props) {
                                                       : ''
                                           }`}
                                     >
-                                          Hello, je suis {props.lastName}{' '}
-                                          {props.firstName} {props.work}
+                                          Bienvenu, je suis {props.lastName}{' '}
+                                          {props.firstName}
                                     </h1>
+                                    <span>{props.work}</span>
                               </li>
                               {props.whoIam}
                         </ul>
