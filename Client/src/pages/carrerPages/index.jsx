@@ -64,8 +64,8 @@ export default function Carrer() {
                         {resExperience.map((experiment, index) => (
                               <CarrerComponent
                                     key={`experiment-${index}`}
-                                carrerTitle={experiment.experimentsName}
-                                courses={experiment.experiment}
+                                    carrerTitle={experiment.experimentsName}
+                                    courses={experiment.experiment}
                                     carrerDateStart={
                                           experiment.experimentDateStart
                                     }
@@ -73,10 +73,9 @@ export default function Carrer() {
                                     carrerDateEnd={experiment.experimentDateEnd}
                                     carrerDescription={experiment?.experimentsDescription?.map(
                                           (description, index) => (
-                                      
-                                                      <p className="carrer-description">
-                                                            {description}
-                                                      </p>
+                                                <p className="carrer-description">
+                                                      {description}
+                                                </p>
                                           ),
                                     )}
                                     goalTitle="Objectifs"

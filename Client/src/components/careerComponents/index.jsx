@@ -10,13 +10,12 @@ export default function CarrerComponent(props) {
                                     {props.carrerTitle}{' '}
                               </h2>
                         </li>
-                        <li className='carrer'>
+                        <li className="carrer">
                               <small className="carrer-jobs">
                                     {props.courses} - {props.carrerJobs}
                               </small>
-                             
                         </li>
-                        <li className='carrer-spec'>
+                        <li className="carrer-spec">
                               <small className="carrer-specificity">
                                     {props.carrerStudyLevel}
                               </small>
@@ -31,7 +30,7 @@ export default function CarrerComponent(props) {
                         <li className="carrer-content-description">
                               {props.carrerDescription}
                         </li>
-                        <li className='lol'>
+                        <li className="lol">
                               <Dropdown
                                     title={props.stackTitle}
                                     content={props.stack}

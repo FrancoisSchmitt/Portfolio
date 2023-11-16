@@ -31,22 +31,19 @@
       margin-top: 3%;
       font-size: 22px;
       margin-bottom: 4%;
-
 }
 
 .carrer-spec {
-      margin-top: .5%;
+      margin-top: 0.5%;
 }
 
 .carrer-spec small {
       margin: 0;
-
 }
 
 .carrer-content-description p {
       margin-bottom: 2%;
       color: #85868a;
-
 }
 
 .carrer-specificity {
@@ -69,8 +66,7 @@
       }
 }
 
-
 .lol div div ul {
-display: grid;
-grid-template-columns: 1fr 1fr ;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
 }
