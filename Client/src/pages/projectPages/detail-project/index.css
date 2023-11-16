@@ -154,39 +154,6 @@ picture {
 /********** ANIMATION-PROJECT-DETAIL **********/
 
 @media screen and (min-device-width: 1200px) {
-      /* .container-description {
-            overflow: hidden;
-            max-height: 0;
-            animation: height 4s ease;
-
-      }
-
-
-
-      @keyframes height {
-            to {
-                  max-height: 1000px;
-                  height: 0;
-            }
-
-            from {
-                  overflow: hidden;
-                  height: auto;
-                  max-height: 0;
-            }
-      }
-
-      @keyframes heightOpen {
-            to {
-                  overflow: hidden;
-                  max-height: 0;
-            }
-
-            from {
-                  max-height: 1000px;
-
-            }
-      } */
 }
 
 /********** END-ANIMATION-PROJECT-DETAIL **********/

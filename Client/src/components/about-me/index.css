@@ -83,18 +83,17 @@ span {
       }
 }
 
-@media (min-width: 1600px) {
-}
-
 /********** ANIMATION-ABOUT-ME **********/
 @media screen and (min-device-width: 1200px) {
       .homepage-aboutme-image,
-      .homepage-aboutme-title {
+      .homepage-aboutme-title,
+      .homepage-aboutme-spanJobs {
             opacity: 0;
       }
 
       .homepage-aboutme-image-animation,
-      .homepage-aboutme-title-animation {
+      .homepage-aboutme-title-animation,
+      .homepage-aboutme-spanJobs {
             opacity: 0;
             transition:
                   transform 500ms cubic-bezier(0, 0, 0.5, 1),
@@ -107,6 +106,10 @@ span {
 
       .homepage-aboutme-image-animation {
             animation: revealImageAboutMe 500ms forwards;
+      }
+
+      .homepage-aboutme-spanJobs-animation {
+            animation: revealTitleAboutMe 500ms forwards;
       }
 
       .homepage-aboutme-image img:hover {

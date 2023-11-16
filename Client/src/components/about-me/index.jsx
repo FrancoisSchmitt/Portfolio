@@ -13,6 +13,12 @@ export default function AboutMe(props) {
             threshold: 1,
             initialInView: true,
       });
+      const { ref: spanJobsAboutMe, inView: spanJobsAboutMeIsVisible } =
+            useInView({
+                  threshold: 1,
+                  initialInView: true,
+            });
+
       return (
             <>
                   <div className="aboutme-container">
@@ -29,7 +35,16 @@ export default function AboutMe(props) {
                                           Bienvenu, je suis {props.lastName}{' '}
                                           {props.firstName}
                                     </h1>
-                                    <span>{props.work}</span>
+                                    <span
+                                          ref={spanJobsAboutMe}
+                                          className={`homepage-aboutme-spanJobs ${
+                                                spanJobsAboutMeIsVisible
+                                                      ? `homepage-aboutme-spanJobs-animation`
+                                                      : ''
+                                          }`}
+                                    >
+                                          {props.work}
+                                    </span>
                               </li>
                               {props.whoIam}
                         </ul>
