@@ -22,6 +22,7 @@
       height: 50px;
       width: 50px;
 }
+
 .skill-content li p {
       margin-top: 10%;
 }
@@ -29,3 +30,38 @@
 .skill-content li:hover {
       filter: brightness(100%);
 }
+
+
+
+/********** ANIMATION-SKILLS **********/
+@media screen and (min-device-width: 1200px) {
+
+      .skill-content {
+            opacity: 0;
+      }
+
+      .skill-content-animation {
+            opacity: 0;
+            transition:
+                  transform 500ms cubic-bezier(0, 0, 0.5, 1),
+                  opacity 500ms cubic-bezier(0, 0, 0.5, 1);
+      }
+
+      .skill-content-animation {
+            animation: revealSkills 500ms forwards;
+      }
+
+
+      @keyframes revealSkills {
+            from {
+                  transform: translateY(50px);
+            }
+
+            to {
+                  transform: translateY(0);
+                  opacity: 1;
+            }
+      }
+}
+
+/********** END-ANIMATION-SKILLS **********/
