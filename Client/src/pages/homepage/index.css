@@ -13,13 +13,16 @@
 .service-section {
       height: 100vh;
 }
+
 .carrer-section,
 .skill-section {
       height: 60vh;
 }
+
 .carrer-section {
       margin-top: 2%;
 }
+
 .skill-section ul {
       margin-top: 8%;
 }
@@ -45,6 +48,12 @@
 @media (max-width: 640px) {
       .aboutme-section {
             height: 70vh;
+      }
+
+      .service-section {
+            margin-top: -50%;
+            margin-bottom: 50%;
+            height: auto;
       }
 
       .project-section,
@@ -102,6 +111,7 @@
       .title-annimation-2 {
             transform: translateY(100px);
       }
+
       .title-annimation-3 {
             transform: translateY(100px);
       }

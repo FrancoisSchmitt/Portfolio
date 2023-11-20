@@ -157,4 +157,20 @@ picture {
 }
 
 /********** END-ANIMATION-PROJECT-DETAIL **********/
-/********** END-PROJECT-DETAIL **********/
+
+/********** MOBIL-PROJECT-DETAIL **********/
+@media (max-width: 640px) {
+      .content-container {
+            display: flex;
+            flex-direction: column;
+      }
+      .content-title {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 5%;
+      }
+}
+
+/********** END-MOBIL-PROJECT-DETAIL **********/

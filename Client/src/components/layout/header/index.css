@@ -31,4 +31,7 @@
       .header-nav {
             width: 100%;
       }
+      .header-nav ul li a {
+            font-size: 14px;
+      }
 }

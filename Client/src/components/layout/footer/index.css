@@ -53,8 +53,19 @@
 }
 
 @media (max-width: 640px) {
+      .footer nav ul {
+            padding-bottom: 10%;
+      }
       .footer-list {
+            display: flex;
+            flex-wrap: wrap;
             width: 100%;
             margin-top: 25%;
+      }
+      .footer-list li {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 2%;
       }
 }
