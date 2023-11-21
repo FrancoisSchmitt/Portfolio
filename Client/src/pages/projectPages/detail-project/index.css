@@ -164,6 +164,7 @@ picture {
             display: flex;
             flex-direction: column;
       }
+
       .content-title {
             display: flex;
             flex-direction: row;
@@ -174,3 +175,30 @@ picture {
 }
 
 /********** END-MOBIL-PROJECT-DETAIL **********/
+/********** END-TABLET-PROJECT-DETAIL **********/
+
+@media (min-width: 640px) and (max-width: 1024px) {
+      .content-container {
+            display: flex;
+            flex-direction: column;
+      }
+
+      .content-title {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 5%;
+      }
+
+      .content-project-image {
+            margin-top: 45%;
+      }
+
+      .content-project-image picture img {
+            width: auto;
+            max-height: 700px;
+      }
+}
+
+/********** END-TABLET-PROJECT-DETAIL **********/

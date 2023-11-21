@@ -7,18 +7,18 @@ import UI from '../../assets/user-interface.svg';
 import './index.css';
 import { useInView } from 'react-intersection-observer';
 export default function ServiceComponent() {
-      const { ref: list, inView: listIsVisible } =
-            useInView({
-                  threshold: 0,
-                  initialInView: true,
-            });
+      const { ref: list, inView: listIsVisible } = useInView({
+            threshold: 0,
+            initialInView: true,
+      });
       return (
             <>
-                  <ul ref={list}
-                        className={`service-content ${listIsVisible
-                                    ? `service-content-animation`
-                                    : ''
-                              }`}>
+                  <ul
+                        ref={list}
+                        className={`service-content ${
+                              listIsVisible ? `service-content-animation` : ''
+                        }`}
+                  >
                         <li>
                               <FontAwesomeIcon icon={faCode} />
                               <h3>Code propre</h3>

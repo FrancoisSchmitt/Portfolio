@@ -31,11 +31,16 @@
       filter: brightness(100%);
 }
 
-
+@media (max-width: 640px) {
+      .skill-content {
+            width: 100%;
+            flex-wrap: wrap;
+            border: none;
+      }
+}
 
 /********** ANIMATION-SKILLS **********/
 @media screen and (min-device-width: 1200px) {
-
       .skill-content {
             opacity: 0;
       }
@@ -50,7 +55,6 @@
       .skill-content-animation {
             animation: revealSkills 500ms forwards;
       }
-
 
       @keyframes revealSkills {
             from {

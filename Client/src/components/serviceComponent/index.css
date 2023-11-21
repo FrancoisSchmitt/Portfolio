@@ -50,16 +50,13 @@
       }
 }
 
-
-
 /********** ANIMATION-SERVICE **********/
 @media screen and (min-device-width: 1200px) {
-
       .service-content {
             opacity: 0;
       }
 
-      .service-content-animation{
+      .service-content-animation {
             opacity: 0;
             transition:
                   transform 500ms cubic-bezier(0, 0, 0.5, 1),
@@ -69,7 +66,6 @@
       .service-content-animation {
             animation: revealService 500ms forwards;
       }
-
 
       @keyframes revealService {
             from {
