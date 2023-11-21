@@ -30,7 +30,7 @@ export default function CarrerComponent(props) {
                         <li className="carrer-content-description">
                               {props.carrerDescription}
                         </li>
-                        <li className="lol">
+                        <li className="stack">
                               <Dropdown
                                     title={props.stackTitle}
                                     content={props.stack}

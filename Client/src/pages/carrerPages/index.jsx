@@ -30,7 +30,9 @@ export default function Carrer() {
                                     carrerDateEnd={courses?.coursesDateEnd}
                                     carrerDescription={courses?.coursesDescription?.map(
                                           (description, index) => (
-                                                <p className="carrer-description">
+                                                <p
+                                                      key={`desc-${index}`}
+                                                      className="carrer-description">
                                                       {description}
                                                 </p>
                                           ),
@@ -73,7 +75,10 @@ export default function Carrer() {
                                     carrerDateEnd={experiment.experimentDateEnd}
                                     carrerDescription={experiment?.experimentsDescription?.map(
                                           (description, index) => (
-                                                <p className="carrer-description">
+                                                <p
+                                                      key={`desc-experiment-${index}`}
+
+                                                      className="carrer-description">
                                                       {description}
                                                 </p>
                                           ),
@@ -83,7 +88,7 @@ export default function Carrer() {
                                     goal={experiment?.experimentsGoal?.map(
                                           (goal, index) => (
                                                 <li
-                                                      key={`goal-${index}`}
+                                                      key={`goal-experiment-${index}`}
                                                       className="carrer-content-goal"
                                                 >
                                                       <small> {goal}</small>
@@ -93,7 +98,7 @@ export default function Carrer() {
                                     stack={experiment?.experimentStack?.map(
                                           (Stack, index) => (
                                                 <li
-                                                      key={`stack-${index}`}
+                                                      key={`stack-experiment-${index}`}
                                                       className="carrer-content-stack"
                                                 >
                                                       <small> {Stack}</small>

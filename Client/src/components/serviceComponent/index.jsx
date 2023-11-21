@@ -45,11 +45,6 @@ export default function ServiceComponent() {
                               </p>
                         </li>
                         <li>
-                              <FontAwesomeIcon icon={faCode} />
-                              <h3>Conception créative</h3>
-                              <p>J'aime créer des projets créatif</p>
-                        </li>
-                        <li>
                               <img src={Responsive} alt="" />
                               <h3>Responsive design </h3>
                               <p>
@@ -58,11 +53,7 @@ export default function ServiceComponent() {
                                     meilleurs
                               </p>
                         </li>
-                        <li>
-                              <FontAwesomeIcon icon={faCode} />
-                              <h3>Animation</h3>
-                              <p>Création d'animation</p>
-                        </li>
+                      
                   </ul>
             </>
       );

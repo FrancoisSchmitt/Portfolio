@@ -45,7 +45,9 @@ export default function DetailProject() {
                                           <div className="content-container">
                                                 <ul className="project-list">
                                                       {data.map((item, i) => (
+    
                                                             <li
+                                                                  key={`item-${i}`}
                                                                   className={
                                                                         selected ===
                                                                         i
@@ -103,6 +105,7 @@ export default function DetailProject() {
                                                 <div className="content-project-image">
                                                       {data.map((item, i) => (
                                                             <picture
+                                                                  key={`item-${i}`}
                                                                   className={
                                                                         selected ===
                                                                         i
