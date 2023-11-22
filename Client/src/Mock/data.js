@@ -196,25 +196,25 @@ const PROJECT_DATA = [
                         title: 'Description',
                         description:
                               "Reproduction d'une maquette, pour trouver un hébergement de vacances",
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Tablette.png',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Header.jpg',
                   },
                   {
                         title: 'Procédure',
                         description:
                               "Examiner les différents éléments graphiques pour mettre en place l'architecture en HTML, et réaliser le style par compartiment",
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Large+Desktop.png',
-                  },
-                  {
-                        title: 'Objectifs',
-                        description:
+                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Hebergement.jpg',
+                        },
+                        {
+                              title: 'Objectifs',
+                              description:
                               "L'objectif du projets et d'intégrer du contenu conformément à une maquette et d'implémenter une interface responsive",
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Desktop.png',
-                  },
-                  {
-                        title: 'Technologie',
-                        description:
+                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-activity.jpg',
+                        },
+                        {
+                              title: 'Technologie',
+                              description:
                               'Les différents téchnologies utilisées ont été HTML et CSS',
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki.png',
+                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Footer-activity.jpg',
                   },
             ],
             githubUrl:

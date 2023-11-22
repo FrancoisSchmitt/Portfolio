@@ -1,4 +1,5 @@
 import { useInView } from 'react-intersection-observer';
+import ButtonMailto from '../currentObject/buttonMailTo';
 import './index.css';
 /**
  * @function AboutMe it was a function to display a lot of myself information it was using call api to get all this information
@@ -62,6 +63,11 @@ export default function AboutMe(props) {
                                           src={props.image}
                                           alt={props.altLastName}
                                     />
+                              </li>
+                              <li>
+                                    <ButtonMailto label="Ecrivez moi un Email" mailto="mailto:schmitt.francois.1699@gmail.com" />
+
+
                               </li>
                         </ul>
                   </div>
