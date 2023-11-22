@@ -30,7 +30,8 @@ export default function AboutMe(props) {
                                                 titleAboutMeIsVisible
                                                       ? `homepage-aboutme-title-animation`
                                                       : ''
-                                          }`}
+                                                }`}
+                                          aria-label="Présentation"
                                     >
                                           Bienvenu, je suis {props.lastName}{' '}
                                           {props.firstName}

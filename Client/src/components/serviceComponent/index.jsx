@@ -33,7 +33,7 @@ export default function ServiceComponent() {
                               <p>
                                     Intéragire avec des données qui sont
                                     transmisse soit par une API, soit par une
-                                    liste de données mock
+                                    liste de données simulacre
                               </p>
                         </li>
                         <li>

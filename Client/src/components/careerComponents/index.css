@@ -72,11 +72,21 @@
 }
 
 @media (max-width: 640px) {
-      .carrer-title{
-            font-size: 17px;
+      .carrer-title {
+            font-size: 25px;
       }
-      .carrer-content-description p{
+
+      .carrer-content-description p {
             margin-bottom: 5%;
             margin-top: 5%;
+            font-size: 15px;
+      }
+
+      .carrer-jobs:nth-child(1), .carrer-specificity {
+            font-size: 15px;
+      }
+
+      .carrer-list{
+            width: 95%;
       }
 }

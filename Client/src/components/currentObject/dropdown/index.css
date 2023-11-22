@@ -88,7 +88,12 @@
 
 
 @media (max-width: 640px) {
+      
+      .dropdown-content{
+            width: 100%;
+      }
       .dropdown-container-content ul {
             font-size: 15px;
       }
+
       }

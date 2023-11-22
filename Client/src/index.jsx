@@ -45,7 +45,6 @@ root.render(
       <React.StrictMode>
             <BrowserRouter>
                   <ScrollToTop>
-                        {/* <Header /> */}
                         <Routes>
                               <Route element={<PageLayout />}>
                                     <Route path="/" element={<Homepage />} />
@@ -70,7 +69,7 @@ root.render(
                               <Route path="/404" element={<Error404 />} />
                               <Route path="*" element={<Error404 />} />
                         </Routes>
-                        {/* <Footer /> */}
+
                   </ScrollToTop>
             </BrowserRouter>
       </React.StrictMode>,
