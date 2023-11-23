@@ -9,9 +9,9 @@ import { NavLink } from 'react-router-dom';
 export default function Footer() {
       return (
             <footer className="footer">
-                  <nav className="footer-nav">
+                  <nav className="footer-nav" aria-label="A navigation element for the home page" role="navigation" aria-describedby="Footer" id="Footer"> 
                         <ul className="footer-list">
-                              <li>
+                              <li aria-label="Liens cliquable vers l'acceuil">
                                     <NavLink
                                           to="/"
                                           className={({
@@ -29,7 +29,7 @@ export default function Footer() {
                                     </NavLink>
                               </li>
 
-                              <li>
+                              <li aria-label="Liens cliquable vers la page formation / expérience">
                                     <NavLink
                                           to="/Carrer"
                                           className={({
@@ -47,7 +47,7 @@ export default function Footer() {
                                     </NavLink>
                               </li>
 
-                              <li>
+                              <li aria-label="Liens cliquable vers la page projet">
                                     <NavLink
                                           to="/Project"
                                           className={({
@@ -65,7 +65,7 @@ export default function Footer() {
                                     </NavLink>
                               </li>
 
-                              <li>
+                              <li aria-label="Liens cliquable qui renvoie sur mon linkedin">
                                     <NavLink
                                           to="https://www.linkedin.com/in/schmitt-francois"
                                           className={({
@@ -83,7 +83,7 @@ export default function Footer() {
                                     </NavLink>
                               </li>
 
-                              <li>
+                              <li aria-label="Liens cliquable qui renvoie vers mon github">
                                     <NavLink
                                           to="https://github.com/FrancoisSchmitt"
                                           className={({
@@ -102,7 +102,7 @@ export default function Footer() {
                               </li>
                         </ul>
                         <ul>
-                              <li>
+                              <li aria-label="Information supplémentaire">
                                     François Schmitt, © 2023. Tous droits
                                     réservés.
                               </li>

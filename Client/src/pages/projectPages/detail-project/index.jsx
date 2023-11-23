@@ -123,7 +123,7 @@ export default function DetailProject() {
                                                                         src={
                                                                               item.image
                                                                         }
-                                                                        alt=""
+                                                                        alt={item.title}
                                                                   />
                                                             </picture>
                                                       ))}

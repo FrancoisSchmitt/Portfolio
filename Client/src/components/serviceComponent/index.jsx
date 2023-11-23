@@ -21,7 +21,7 @@ export default function ServiceComponent() {
                   >
                         <li>
                               <FontAwesomeIcon icon={faCode} />
-                              <h3>Code propre</h3>
+                              <h2>Code propre</h2>
                               <p>
                                     Créer un code propre qui respecte les règles
                                     et normes du langage de developpement
@@ -29,7 +29,7 @@ export default function ServiceComponent() {
                         </li>
                         <li>
                               <FontAwesomeIcon icon={faDatabase} />
-                              <h3>Gestion de données</h3>
+                              <h2>Gestion de données</h2>
                               <p>
                                     Intéragire avec des données qui sont
                                     transmisse soit par une API, soit par une
@@ -38,7 +38,7 @@ export default function ServiceComponent() {
                         </li>
                         <li>
                               <FontAwesomeIcon icon={faGear} />
-                              <h3>Algorithme</h3>
+                              <h2>Algorithme</h2>
                               <p>
                                     Créer des algorithmes, plus ou moins
                                     complexes
@@ -46,7 +46,7 @@ export default function ServiceComponent() {
                         </li>
                         <li>
                               <img src={Responsive} alt="" />
-                              <h3>Responsive design </h3>
+                              <h2>Responsive design </h2>
                               <p>
                                     Mise en place d'un système de responsive
                                     pour que l'experience utilisateur soit bien

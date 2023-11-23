@@ -6,6 +6,8 @@ import './index.css';
  * @returns
  */
 export default function AboutMe(props) {
+
+
       const { ref: imageAboutMe, inView: imageAboutMeIsVisible } = useInView({
             threshold: 0,
             initialInView: true,
@@ -25,7 +27,7 @@ export default function AboutMe(props) {
                   <div className="aboutme-container">
                         <ul className="aboutme-content aboutme-wrap">
                               <li className="aboutme-list-title">
-                                    <h1
+                                    <h1 
                                           ref={titleAboutMe}
                                           className={`homepage-aboutme-title ${
                                                 titleAboutMeIsVisible
@@ -35,6 +37,7 @@ export default function AboutMe(props) {
                                           aria-label="Présentation"
                                     >
                                           Bienvenu, je suis {props.lastName}{' '}
+                                          
                                           {props.firstName}
                                     </h1>
                                     <span
@@ -43,7 +46,8 @@ export default function AboutMe(props) {
                                                 spanJobsAboutMeIsVisible
                                                       ? `homepage-aboutme-spanJobs-animation`
                                                       : ''
-                                          }`}
+                                                }`}
+                                          
                                     >
                                           {props.work}
                                     </span>
@@ -61,7 +65,7 @@ export default function AboutMe(props) {
                               >
                                     <img
                                           src={props.image}
-                                          alt={props.altLastName}
+                                          alt="Photos de moi"
                                     />
                               </li>
                               <li>

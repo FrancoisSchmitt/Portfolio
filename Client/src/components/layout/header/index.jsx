@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 export default function Header() {
       return (
             <header className="header">
-                  <nav className="header-nav">
+                  <nav id="Header" className="header-nav" aria-label="A navigation element for the home page" role="navigation" aria-describedby="Header">
                         <ul className="header-list">
                               <li>
                                     <NavLink
