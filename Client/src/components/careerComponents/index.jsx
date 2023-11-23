@@ -17,14 +17,14 @@ export default function CarrerComponent(props) {
                         </li>
                         <li className="carrer-spec">
                               <small className="carrer-specificity">
-                                    {props.carrerStudyLevel}
+                                    {props.carrerStudyLevel} {' '}
                               </small>
                               <small className="carrer-specificity">
-                                    {props.carrerDateStart}
+                                    {props.carrerDateStart} {' '}
                               </small>
                               <small>-</small>
                               <small className="carrer-specificity">
-                                    {props.carrerDateEnd}
+                                    {' '} {props.carrerDateEnd}
                               </small>
                         </li>
                         <li className="carrer-content-description">

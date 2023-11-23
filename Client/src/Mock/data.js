@@ -5,7 +5,6 @@ const USER_MAIN_DATA = [
             image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/me.png',
             firstName: 'François',
             whoIam: [
-                  //   "Suite à une reconversion du métier de l'aide à la personne, ",
                   "Après avoir fait une première formation en tant que développeur web, au sein de la Web@cadémie de Epitech, j'ai poursuivi une formation en tant que développeur front-end chez OpenClassrooms",
                   "J'aime créer des produits frontend solides et évolutifs avec d'excellentes expériences utilisateur.",
             ],
@@ -57,7 +56,7 @@ const COURSES_DATA = [
             coursesDateStart: 'Novembre 2021',
             coursesDateEnd: 'Janvier 2023',
             coursesDescription: [
-                  "La formation au sein d'OpenClassrooms, s'est réalisée 100% à distance, suivie par un mentor toutes les semaines pour suivre l'avancement des projets et revenir sur différents problèmes rencontrées.",
+                  "La formation au sein d'OpenClassrooms, s'est réalisée 100% à distance, suivie par un mentor toutes les semaines pour suivre l'avancement des projets et revenir sur différents problèmes rencontrés.",
                   "Durant 14 mois, j'ai pu réaliser 13 projets, avec une soutenance à la fin de chaque projet. La formation est scindée en plusieurs parties, dans un premier temps on réalise des projets en HTML / CSS. Par la suite on aura quelques projets en JavaScript, et pour finir la plus grosse partie de la formation se terminera sur React.js.",
             ],
             coursesGoal: [
@@ -118,13 +117,13 @@ const PROJECT_DATA = [
                   {
                         title: 'Description',
                         description:
-                              "Les petits plats est une application web qui est similaire aux site Marmiton. il y'a une quantité de recette à afficher, l'ajout de différents « tag » et d'une barre de recherche",
+                              "Les petits plats est une application web qui est similaire au site Marmiton. il y a une quantité de recettes à afficher, l'ajout de différents « tag » et d'une barre de recherche",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+3.png',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              "Pour ce projet j'ai éxaminer dans un premier temps quel était les différentes fonctionnalités a réaliser afin de mieux comprendre la problématique. J'ai ensuite entamé l'affichage de toutes les données qui ont été mock, une fois terminer je me suis penché sur la création de l'algorithme afin de faire la recherche par « tag » ou par une recherche basique ou les deux simultanément.",
+                              "Pour ce projet j'ai examiné dans un premier temps quelles étaient les différentes fonctionnalités à réaliser afin de mieux comprendre la problématique. J'ai ensuite entamé l'affichage de toutes les données qui ont été simulées, une fois terminé je me suis penché sur la création de l'algorithme afin de faire la recherche par « tag » ou par une recherche basique ou les deux simultanément.",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+1.png',
                   },
                   {
@@ -137,7 +136,7 @@ const PROJECT_DATA = [
                   {
                         title: 'Technologie',
                         description: [
-                              'Les téchnologies utilisées ont été JavaScript Vanilla, CSS',
+                              'Les technologies utilisées ont été JavaScript Vanilla, CSS',
                         ],
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/petits-plat/Desktop+-+5.png',
                   },
@@ -159,25 +158,25 @@ const PROJECT_DATA = [
                   {
                         title: 'Description',
                         description:
-                              'SportSee est une application web permettant au sportif de suivre leur évolutions grâce à des éléments graphique, les données ont été transmisses par une API, et des données mock il fallait géré les deux cas.',
+                              'SportSee est une application web permettant au sportif de suivre leurs évolutions grâce à des éléments graphiques. Les données ont été transmisses par une API et des données simulées, il fallait gérer les deux cas.',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/SportSee.png',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              "Pour ce projet j'ai éxaminer dans un premier temps quel était les différentes fonctionnalités. j'ai ensuite commencé par réaliser le site avec les données mock en les affichants les données sur les différents éléments graphiques et j'ai fini par implémenter les données via l'API sur une branche distinct",
+                              "Pour ce projet j'ai examiné dans un premier temps quelles étaient les différentes fonctionnalités. J'ai ensuite commencé par réaliser le site avec les données simulées en les affichant sur les différents éléments graphiques et j'ai fini par implémenter les données via l'API sur une branche distincte",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/sportSee-1.png',
                   },
                   {
                         title: 'Objectifs',
                         description:
-                              "Les différents objéctifs ont été d'assurer la qualité des données d'une application et de Développer des éléments graphiques avancés à l'aide de bibliothèques JavaScript",
+                              "Les différents objéctifs ont été d'assurer la qualité des données d'une application et de développer des éléments graphiques avancés à l'aide d'une bibliothèque JavaScript",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/sportSee1.png',
                   },
                   {
                         title: 'Technologie',
                         description:
-                              'les différentes technologie utilisées ont été React.Js, Recharts.Js, CSS, API / Mock et Node.Js',
+                              'les différentes technologies utilisées ont été React.Js, Recharts.Js, CSS, API / Mock et Node.Js',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/sportsee/sportsee3.png',
                   },
             ],
@@ -207,13 +206,13 @@ const PROJECT_DATA = [
                         {
                               title: 'Objectifs',
                               description:
-                              "L'objectif du projets et d'intégrer du contenu conformément à une maquette et d'implémenter une interface responsive",
+                              "L'objectif du projet est d'intégrer du contenu conformément à une maquette et d'implémenter une interface responsive",
                               image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-activity.jpg',
                         },
                         {
                               title: 'Technologie',
                               description:
-                              'Les différents téchnologies utilisées ont été HTML et CSS',
+                              'Les différentes téchnologies utilisées ont été HTML et CSS',
                               image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Footer-activity.jpg',
                   },
             ],
@@ -230,20 +229,20 @@ const PROJECT_DATA = [
                   {
                         title: 'Description',
                         description:
-                              "OhMyFood est une application web qui est similaire aux site Uber Eats. Des restaurants mettent à disposition des plats que l'on peux commander.",
+                              "OhMyFood est une application web qui est similaire au site Uber Eats. Des restaurants mettent à disposition des plats que l'on peut commander.",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+La+palette+du+gout.png',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet. ',
+                              'Dans un premier temps, je me suis renseigné sur le projet, les différentes fonctionnalités à réaliser, prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet.',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
                   },
                   {
                         title: 'Objectifs',
                         description:
                               "Les objectifs de ce projet ont été de mettre en œuvre des effets CSS graphiques avancés, d'assurer la cohérence graphique d'un site web, de mettre en place une structure de navigation pour un site web.",
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+%C3%80+la+fran%C3%A7aise.png',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Menu+-+Le+de%CC%81lice+des+sens.png',
                   },
                   {
                         title: 'Technologie',
@@ -260,31 +259,31 @@ const PROJECT_DATA = [
       {
             id: '4fb2bf6c469c4eacac780',
             title: 'Kasa',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/D_Home.png',
             detail: [
                   {
                         title: 'Description',
                         description:
-                              ' Kasa est une application web dédié au agence de location de logement. Une liste de logement est affiche, lorsque l’on clique sur un logement qui nous intéresse, on sera redirigiez sur le logement choisi avec une quantité de ressource supplémentaire.',
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Home.png',
+                              'Kasa est une application web dédiée aux agences de location de logement. Une liste de logements est affichée, lorsque l’on clique sur un logement qui nous intéresse, on sera redirigé sur le logement choisi avec une quantité de ressources supplémentaires.',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/Kasa-Main.jpg',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ',
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_A-Propos.png',
+                              'Dans un premier temps, je me suis renseigné sur le projet, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet.',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/kasa-Logement.jpg',
                   },
                   {
                         title: 'Objectifs',
                         description:
-                              "Les objectifs de ce projets ont été la création d’un carousel et d'assuré un système de routes ",
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/D_Fiche-Logement.png',
+                              "Les objectifs de ce projet ont été la création d’un carousel et d'assurer un système de routes",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/Kasa-More.jpg',
                   },
                   {
                         title: 'Technologie',
                         description:
                               'Les technologies utilisées ont été React.Js et CSS',
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/M_Home.png',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/kasa/kasa-Main-Mobil.jpg',
                   },
             ],
 
@@ -297,24 +296,24 @@ const PROJECT_DATA = [
       {
             id: '987f0bdd38554a068b32',
             title: 'FishEye',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Index-2.png',
             detail: [
                   {
                         title: 'Description',
                         description:
-                              "FishEye est une application web dédié au photographe, pour qu'ils partagent leur plus belles images ",
+                        "FishEye est une application web dédiée aux photographes, pour qu'ils partagent leurs plus beaux clichés",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ',
+                              'Dans un premier temps, je me suis renseigné sur le projet, les différentes fonctionnalités à réaliser, prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet. ',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/component.png',
                   },
                   {
                         title: 'Objectifs',
                         description:
-                              "Les différents objectifs ont été d'assurer l'accessibilité d'un site web, développeur une application web modulaire et de gérer les évènements d'un site avec JavaScript",
+                              "Les différents objectifs ont été d'assurer l'accessibilité d'un site web, développer une application web modulaire et de gérer les évènements d'un site avec JavaScript",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/form-modal.png',
                   },
                   {
@@ -333,31 +332,31 @@ const PROJECT_DATA = [
       {
             id: 'cad17b7b479046ca965d',
             title: 'GameOn',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Homepage.png',
             detail: [
                   {
                         title: 'Description',
                         description:
-                              "GameOn est une application web qui permet de présenté sont évènement, et d'avoir la possibilité de s'inscrire via un formulaire",
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage.png',
+                              "GameOn est une application web qui permet de présenter son évènement, et d'avoir la possibilité de s'inscrire via un formulaire",
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/GameO-Main-Desktop.jpg',
                   },
                   {
                         title: 'Procédure',
                         description:
-                              'Dans un premier temps, je me suis renseigné sur le projets, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projets. ',
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened.png',
+                           'Dans un premier temps, je me suis renseigné sur le projet, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet.',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/GameOn-Main.jpg',
                   },
                   {
                         title: 'Objectifs',
                         description:
-                              'Les différents objectifs ont été de ce projet et de programmer en JavaScript et de réaliser un formulaire fonctionnel',
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/M-HomePage-ModalOpened-1.png',
+                              'Les objectifs de ce projet ont été de programmer en JavaScript et de réaliser un formulaire fonctionnel',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/GameOn-Modal-Error.jpg',
                   },
                   {
                         title: 'Technologie',
                         description:
                               'Les technologies utilisées ont été HTML, CSS et JavaScript',
-                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/Homepage.png',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/GameOn-ModalOpen.jpg',
                   },
             ],
             githubUrl: 'https://github.com/FrancoisSchmitt/GameOn',

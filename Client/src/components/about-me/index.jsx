@@ -36,7 +36,7 @@ export default function AboutMe(props) {
                                                 }`}
                                           aria-label="Présentation"
                                     >
-                                          Bienvenu, je suis {props.lastName}{' '}
+                                          Bienvenue, je suis {props.lastName}{' '}
                                           
                                           {props.firstName}
                                     </h1>

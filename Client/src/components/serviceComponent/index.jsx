@@ -31,9 +31,9 @@ export default function ServiceComponent() {
                               <FontAwesomeIcon icon={faDatabase} />
                               <h2>Gestion de données</h2>
                               <p>
-                                    Intéragire avec des données qui sont
-                                    transmisse soit par une API, soit par une
-                                    liste de données simulacre
+                                    Interagir avec des données qui sont
+                                    transmises soit par une API, soit par une
+                                    liste de données simulées
                               </p>
                         </li>
                         <li>
@@ -50,7 +50,7 @@ export default function ServiceComponent() {
                               <p>
                                     Mise en place d'un système de responsive
                                     pour que l'experience utilisateur soit bien
-                                    meilleurs
+                                    meilleure
                               </p>
                         </li>
                       
