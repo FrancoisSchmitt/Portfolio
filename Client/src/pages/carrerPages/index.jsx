@@ -32,7 +32,8 @@ export default function Carrer() {
                                           (description, index) => (
                                                 <p
                                                       key={`desc-${index}`}
-                                                      className="carrer-description">
+                                                      className="carrer-description"
+                                                >
                                                       {description}
                                                 </p>
                                           ),
@@ -77,8 +78,8 @@ export default function Carrer() {
                                           (description, index) => (
                                                 <p
                                                       key={`desc-experiment-${index}`}
-
-                                                      className="carrer-description">
+                                                      className="carrer-description"
+                                                >
                                                       {description}
                                                 </p>
                                           ),

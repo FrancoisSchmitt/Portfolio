@@ -45,7 +45,6 @@ export default function DetailProject() {
                                           <div className="content-container">
                                                 <ul className="project-list">
                                                       {data.map((item, i) => (
-    
                                                             <li
                                                                   key={`item-${i}`}
                                                                   className={
@@ -123,7 +122,9 @@ export default function DetailProject() {
                                                                         src={
                                                                               item.image
                                                                         }
-                                                                        alt={item.title}
+                                                                        alt={
+                                                                              item.title
+                                                                        }
                                                                   />
                                                             </picture>
                                                       ))}

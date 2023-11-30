@@ -62,7 +62,6 @@
       color: #ffffff;
 }
 
-
 .dropdown-container-content div {
       padding-top: 2%;
       padding-bottom: 2%;
@@ -86,14 +85,11 @@
       }
 }
 
-
 @media (max-width: 640px) {
-      
-      .dropdown-content{
+      .dropdown-content {
             width: 100%;
       }
       .dropdown-container-content ul {
             font-size: 15px;
       }
-
-      }
+}

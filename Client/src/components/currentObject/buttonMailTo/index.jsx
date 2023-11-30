@@ -7,20 +7,17 @@ import { Link } from 'react-router-dom';
  */
 
 export default function ButtonMailto(props) {
-
       return (
             <button>
-
-            <Link
-                  to='#'
-                  onClick={(e) => {
-                        window.location.href = props.mailto;
-                        e.preventDefault();
-                  }}
+                  <Link
+                        to="#"
+                        onClick={(e) => {
+                              window.location.href = props.mailto;
+                              e.preventDefault();
+                        }}
                   >
-                  {props.label}
-            </Link>
-                  </button>
+                        {props.label}
+                  </Link>
+            </button>
       );
-};
-
+}

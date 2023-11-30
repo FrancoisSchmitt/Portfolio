@@ -6,8 +6,6 @@ import './index.css';
  * @returns
  */
 export default function AboutMe(props) {
-
-
       const { ref: imageAboutMe, inView: imageAboutMeIsVisible } = useInView({
             threshold: 0,
             initialInView: true,
@@ -27,17 +25,16 @@ export default function AboutMe(props) {
                   <div className="aboutme-container">
                         <ul className="aboutme-content aboutme-wrap">
                               <li className="aboutme-list-title">
-                                    <h1 
+                                    <h1
                                           ref={titleAboutMe}
                                           className={`homepage-aboutme-title ${
                                                 titleAboutMeIsVisible
                                                       ? `homepage-aboutme-title-animation`
                                                       : ''
-                                                }`}
+                                          }`}
                                           aria-label="Présentation"
                                     >
                                           Bienvenue, je suis {props.lastName}{' '}
-                                          
                                           {props.firstName}
                                     </h1>
                                     <span
@@ -46,8 +43,7 @@ export default function AboutMe(props) {
                                                 spanJobsAboutMeIsVisible
                                                       ? `homepage-aboutme-spanJobs-animation`
                                                       : ''
-                                                }`}
-                                          
+                                          }`}
                                     >
                                           {props.work}
                                     </span>
@@ -69,9 +65,10 @@ export default function AboutMe(props) {
                                     />
                               </li>
                               <li>
-                                    <ButtonMailto label="Ecrivez moi un Email" mailto="mailto:schmitt.francois.1699@gmail.com" />
-
-
+                                    <ButtonMailto
+                                          label="Contactez-moi"
+                                          mailto="mailto:schmitt.francois.1699@gmail.com"
+                                    />
                               </li>
                         </ul>
                   </div>

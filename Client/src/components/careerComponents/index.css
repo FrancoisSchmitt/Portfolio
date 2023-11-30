@@ -82,11 +82,12 @@
             font-size: 15px;
       }
 
-      .carrer-jobs:nth-child(1), .carrer-specificity {
+      .carrer-jobs:nth-child(1),
+      .carrer-specificity {
             font-size: 15px;
       }
 
-      .carrer-list{
+      .carrer-list {
             width: 95%;
       }
 }

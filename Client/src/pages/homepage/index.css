@@ -48,6 +48,7 @@
 @media (max-width: 640px) {
       .aboutme-section {
             height: 70vh;
+            margin-top: 60%;
       }
 
       .service-section {

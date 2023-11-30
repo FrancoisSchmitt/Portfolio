@@ -90,7 +90,7 @@ export default function Homepage() {
                                     )}
                                     image={user.image}
                                     altLastName={user.altLastName}
-                                    />
+                              />
                         </section>
                   ))}
                   <section className="skill-section">

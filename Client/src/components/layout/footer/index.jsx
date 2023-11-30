@@ -9,7 +9,13 @@ import { NavLink } from 'react-router-dom';
 export default function Footer() {
       return (
             <footer className="footer">
-                  <nav className="footer-nav" aria-label="A navigation element for the home page" role="navigation" aria-describedby="Footer" id="Footer"> 
+                  <nav
+                        className="footer-nav"
+                        aria-label="A navigation element for the home page"
+                        role="navigation"
+                        aria-describedby="Footer"
+                        id="Footer"
+                  >
                         <ul className="footer-list">
                               <li aria-label="Liens cliquable vers l'acceuil">
                                     <NavLink

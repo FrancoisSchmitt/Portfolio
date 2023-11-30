@@ -201,19 +201,19 @@ const PROJECT_DATA = [
                         title: 'Procédure',
                         description:
                               "Examiner les différents éléments graphiques pour mettre en place l'architecture en HTML, et réaliser le style par compartiment",
-                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Hebergement.jpg',
-                        },
-                        {
-                              title: 'Objectifs',
-                              description:
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Hebergement.jpg',
+                  },
+                  {
+                        title: 'Objectifs',
+                        description:
                               "L'objectif du projet est d'intégrer du contenu conformément à une maquette et d'implémenter une interface responsive",
-                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-activity.jpg',
-                        },
-                        {
-                              title: 'Technologie',
-                              description:
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-activity.jpg',
+                  },
+                  {
+                        title: 'Technologie',
+                        description:
                               'Les différentes téchnologies utilisées ont été HTML et CSS',
-                              image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Footer-activity.jpg',
+                        image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/booki/Booki-Footer-activity.jpg',
                   },
             ],
             githubUrl:
@@ -224,7 +224,7 @@ const PROJECT_DATA = [
       {
             id: '4fb2bf6c469c4eacacc8',
             title: 'OhMyFood',
-            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Homepage.png',
+            image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/ohmyfood/Homepage-1.png',
             detail: [
                   {
                         title: 'Description',
@@ -301,7 +301,7 @@ const PROJECT_DATA = [
                   {
                         title: 'Description',
                         description:
-                        "FishEye est une application web dédiée aux photographes, pour qu'ils partagent leurs plus beaux clichés",
+                              "FishEye est une application web dédiée aux photographes, pour qu'ils partagent leurs plus beaux clichés",
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/Photographer/Index-2.png',
                   },
                   {
@@ -343,7 +343,7 @@ const PROJECT_DATA = [
                   {
                         title: 'Procédure',
                         description:
-                           'Dans un premier temps, je me suis renseigné sur le projet, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet.',
+                              'Dans un premier temps, je me suis renseigné sur le projet, les différentes fonctionnalités à réaliser,  prendre connaissance de la charte graphique afin de s’organiser plus facilement sur la conception du projet.',
                         image: 'https://fs-portfolio.s3.eu-west-3.amazonaws.com/gameon/GameOn-Main.jpg',
                   },
                   {
